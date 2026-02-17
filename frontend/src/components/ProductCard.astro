@@ -1,34 +1,46 @@
 ---
-import type { CollectionEntry } from "astro:content";
-import { getEntry } from "astro:content";
-import { getFormattedPrice } from "../utils/getFormattedPrice";
-import SanityImage from "./SanityImage.astro";
+// 1. 删除所有 Sanity 和 content 相关的 import
+// 只保留基本的 Props 定义
 
 type Props = {
-	product: CollectionEntry<"products">;
+  product: {
+    id: string;
+    name: string;
+    description: string;
+    price: string;
+    imageUrl: string; // 对应 JSON 里的 R2 图片链接
+    stripeLink: string; // 对应 JSON 里的 Stripe 支付链接
+  };
 };
 
 const { product } = Astro.props;
 
-
-const creator = await getEntry('creators', product.data.creator.id)
-
-
-
-const price = getFormattedPrice(product.data.price);
+// 2. 这里不需要再 await getEntry 了，直接定义作者名
+// 因为这是你的个人独立站，作者永远是你
+const creatorName = "Tiny Crochet"; 
 ---
 
-<a class="product-card"
-data-product-title={product.data.name}
-data-creator-name={creator.data.alias}
-data-price={price}
-data-astro-prefetch
-href={`/${creator.data.slug}/products/${product.data.slug}`}>
+<a 
+  class="product-card"
+  data-product-title={product.name}
+  data-creator-name={creatorName}
+  data-price={`$${product.price}`}
+  href={product.stripeLink} 
+  target="_blank"
+>
   <article>
-    <SanityImage node={product.data.imageWithAlt} width={800}  />
+    <img 
+      src={product.imageUrl} 
+      alt={product.name} 
+      width="800" 
+      height="800" 
+      loading="lazy"
+      class="custom-image"
+    />
+    
     <span class="sr-only">
-      <h3>{product.data.name}</h3>
-      <p>{new Date(product.data.publishedAt).getFullYear()}</p>
+      <h3>{product.name}</h3>
+      <p>{creatorName}</p>
     </span>
   </article>
 </a>
@@ -39,20 +51,26 @@ href={`/${creator.data.slug}/products/${product.data.slug}`}>
     gap: 0.5rem;
     flex-direction: column;
     align-content: start;
-    max-width: 300px;
+    /* max-width: 300px;  <-- 建议注释掉这个限制，让网格自己控制宽度 */
+    width: 100%;
+    cursor: pointer; /* 鼠标放上去变成小手 */
   }
+
+  /* 新增图片的样式，模仿原来的效果 */
+  .custom-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1.2; /* 设置一个统一的长宽比，比如 1:1.2，让排版整齐 */
+    object-fit: cover;     /* 关键：自动裁剪图片，防止拉伸变形 */
+    background: var(--color-placeholder, #f0f0f0); /* 图片加载前的背景色 */
+    display: block;
+  }
+
   div {
     background: var(--color-placeholder);
   }
   h3,
   p {
     margin: 0;
-  }
-  h3 {
-    grid-area: title;
-  }
-  p {
-    justify-self: end;
-    grid-area: meta;
   }
 </style>
