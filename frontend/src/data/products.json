@@ -1,0 +1,10 @@
+[
+  {
+    "id": "flowery_panda_001",
+    "name": "Flowery Panda Amigurumi",
+    "description": "Digital PDF Crochet Pattern. Instant download.",
+    "price": "2.35",
+    "imageUrl": "这里填你R2上的一张测试图片链接",
+    "stripeLink": "这里填你之前生成的那个Stripe测试支付链接"
+  }
+]
