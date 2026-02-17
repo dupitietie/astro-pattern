@@ -1,22 +1,16 @@
 ---
-// 1. 删除所有 Sanity 和 content 相关的 import
-// 只保留基本的 Props 定义
-
 type Props = {
   product: {
     id: string;
     name: string;
     description: string;
     price: string;
-    imageUrl: string; // 对应 JSON 里的 R2 图片链接
-    stripeLink: string; // 对应 JSON 里的 Stripe 支付链接
+    imageUrl: string;
+    stripeLink: string;
   };
 };
 
 const { product } = Astro.props;
-
-// 2. 这里不需要再 await getEntry 了，直接定义作者名
-// 因为这是你的个人独立站，作者永远是你
 const creatorName = "Tiny Crochet"; 
 ---
 
@@ -38,6 +32,11 @@ const creatorName = "Tiny Crochet";
       class="custom-image"
     />
     
+    <div class="mobile-info">
+      <h3 class="mobile-title">{product.name}</h3>
+      <span class="mobile-price">${product.price}</span>
+    </div>
+    
     <span class="sr-only">
       <h3>{product.name}</h3>
       <p>{creatorName}</p>
@@ -51,26 +50,49 @@ const creatorName = "Tiny Crochet";
     gap: 0.5rem;
     flex-direction: column;
     align-content: start;
-    /* max-width: 300px;  <-- 建议注释掉这个限制，让网格自己控制宽度 */
     width: 100%;
-    cursor: pointer; /* 鼠标放上去变成小手 */
+    cursor: pointer;
+    text-decoration: none; /* 去掉链接下划线 */
+    color: inherit;        /* 继承字体颜色 */
   }
 
-  /* 新增图片的样式，模仿原来的效果 */
   .custom-image {
     width: 100%;
     height: auto;
-    aspect-ratio: 1 / 1.2; /* 设置一个统一的长宽比，比如 1:1.2，让排版整齐 */
-    object-fit: cover;     /* 关键：自动裁剪图片，防止拉伸变形 */
-    background: var(--color-placeholder, #f0f0f0); /* 图片加载前的背景色 */
+    aspect-ratio: 1 / 1.2;
+    object-fit: cover;
+    background: var(--color-placeholder, #f0f0f0);
     display: block;
+    border-radius: 8px; /* 给图片加一点圆角更精致 */
   }
 
-  div {
-    background: var(--color-placeholder);
+  /* [NEW] 手机端信息的样式 */
+  .mobile-info {
+    margin-top: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 0.9rem;
+    line-height: 1.2;
   }
-  h3,
-  p {
+
+  .mobile-title {
+    font-weight: 600;
     margin: 0;
+    max-width: 70%; /* 防止标题太长挤压价格 */
+  }
+
+  .mobile-price {
+    font-weight: normal;
+    opacity: 0.8;
+  }
+
+  /* [KEY MAGIC] 关键魔法：检测设备是否支持“悬停” */
+  /* 如果设备有鼠标（hover: hover），就隐藏上面的 .mobile-info */
+  /* 这样电脑上依然是纯净图，鼠标放上去才有特效；手机上则直接显示文字 */
+  @media (hover: hover) {
+    .mobile-info {
+      display: none;
+    }
   }
 </style>
