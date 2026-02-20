@@ -13,7 +13,7 @@ export default defineConfig({
     },
     prefetch: true,
     trailingSlash: "never",
-    site: SITE_URL || "https://tiny-crochet.pages.dev", // 加了个备用网址防报错
+    site: "https://shop.unihandcraft.com", // 加了个备用网址防报错
     integrations: [sitemap()],
     image: {
         // 删除了 cdn.sanity.io 的域名限制
