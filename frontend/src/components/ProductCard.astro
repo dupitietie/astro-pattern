@@ -51,22 +51,34 @@ const creatorName = "Tiny Crochet";
     flex-direction: column;
     align-content: start;
     width: 100%;
+    
+    /* 核心修复：给卡片加上最大宽度限制，数值你可以根据喜好微调 */
+    max-width: 300px; 
+    margin: 0 auto; /* 保证卡片在各自的网格里居中对齐 */
+    
     cursor: pointer;
-    text-decoration: none; /* 去掉链接下划线 */
-    color: inherit;        /* 继承字体颜色 */
+    text-decoration: none;
+    color: inherit;
   }
 
   .custom-image {
     width: 100%;
     height: auto;
-    aspect-ratio: 1 / 1.2;
+    
+    /* 这里控制图片的比例。1 / 1 是正方形，非常适合钩织玩偶展示。
+       如果你想让图片更修长一点，可以改成 3 / 4 */
+    aspect-ratio: 1 / 1; 
+    
     object-fit: cover;
     background: var(--color-placeholder, #f0f0f0);
     display: block;
-    border-radius: 8px; /* 给图片加一点圆角更精致 */
+    border-radius: 12px; /* 把圆角调大了一点，看起来更精致可爱 */
+    
+    /* 加一点淡淡的阴影，让卡片有立体感 */
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
   }
 
-  /* [NEW] 手机端信息的样式 */
+  /* --- 下面的手机端样式保持不变 --- */
   .mobile-info {
     margin-top: 0.75rem;
     display: flex;
@@ -74,12 +86,13 @@ const creatorName = "Tiny Crochet";
     align-items: flex-start;
     font-size: 0.9rem;
     line-height: 1.2;
+    padding: 0 0.25rem; /* 给文字两边留一点呼吸空间 */
   }
 
   .mobile-title {
     font-weight: 600;
     margin: 0;
-    max-width: 70%; /* 防止标题太长挤压价格 */
+    max-width: 70%;
   }
 
   .mobile-price {
@@ -87,9 +100,6 @@ const creatorName = "Tiny Crochet";
     opacity: 0.8;
   }
 
-  /* [KEY MAGIC] 关键魔法：检测设备是否支持“悬停” */
-  /* 如果设备有鼠标（hover: hover），就隐藏上面的 .mobile-info */
-  /* 这样电脑上依然是纯净图，鼠标放上去才有特效；手机上则直接显示文字 */
   @media (hover: hover) {
     .mobile-info {
       display: none;
