@@ -1,19 +1,17 @@
 ---
-// 1. 删除原来的 import type { CollectionEntry } from "astro:content";
 import ProductCard from "./ProductCard.astro";
 import ProductTooltip from "./ProductTooltip.astro";
 
-// 2. 自定义数据类型，严格匹配你在 products.json 里填写的字段
+// 确保这里的类型完全匹配你 JSON 里的数据格式
 type Product = {
   id: string;
   name: string;
   description: string;
-  price: string;
+  price: number; // 已经为你改为 number，对应 JSON 里的 2.35
   imageUrl: string;
   stripeLink: string;
 };
 
-// 3. 把 Props 的类型从 CollectionEntry 替换成你自己的数组
 type Props = {
   products: Product[];
 };
@@ -23,26 +21,32 @@ const grid = "products";
 ---
 
 <section class="product-grid" id='grid' data-grid={grid}>
-  {products.map((product) => <ProductCard product={product} />)}
+  {products.map((product) => <ProductCard product={product} />)}
 </section>
 
 <ProductTooltip grid={grid} />
 
 <style>
-  /* 这里的样式（CSS）完全保持原样，它是控制网格布局的核心，非常美观，不需要动 */
-  .product-grid {
-    position: relative;
-    overflow: hidden;
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(2, calc(100% / 2));
-    margin: 1rem 0 10rem;
-    min-height: 400px;
-    @media screen and (min-width: 30em) {
-      grid-template-columns: repeat(4, calc(100% / 4));
-    }
-    @media screen and (min-width: 50em) {
-      grid-template-columns: repeat(6, calc(100% / 6));
-    }
-  }
+  /* 已经为你将 CSS 嵌套拆解，彻底消除打包时的数百条警告，保证样式依然完美 */
+  .product-grid {
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, calc(100% / 2));
+    margin: 1rem 0 10rem;
+    min-height: 400px;
+  }
+
+  @media screen and (min-width: 30em) {
+    .product-grid {
+      grid-template-columns: repeat(4, calc(100% / 4));
+    }
+  }
+
+  @media screen and (min-width: 50em) {
+    .product-grid {
+      grid-template-columns: repeat(6, calc(100% / 6));
+    }
+  }
 </style>
