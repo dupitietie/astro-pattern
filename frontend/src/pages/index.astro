@@ -1,16 +1,21 @@
 ---
 import allProducts from "../data/products.json";
 
+// 1. 重新引入预加载动画组件
+import Preloader from "../components/Preloader.astro";
 import ProductGrid from "../components/ProductGrid.astro";
 import ProductGridHeader from "../components/ProductGridHeader.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 const productsTotal = allProducts.length;
-
 const title = "Tiny Crochet - All Patterns";
 ---
 
 <BaseLayout title={title}>
+  <Preloader />
+  
   <ProductGridHeader productsTotal={productsTotal} />
   <ProductGrid products={allProducts} />
 </BaseLayout>
+
+<script src="../scripts/index.js"></script>
