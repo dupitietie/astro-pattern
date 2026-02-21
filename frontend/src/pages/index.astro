@@ -1,25 +1,16 @@
 ---
-// 1. 删除原来的 import { getCollection } ...
-// 2. 改为引入你刚才创建的 JSON 数据文件
 import allProducts from "../data/products.json";
 
-#import Preloader from "../components/Preloader.astro";
 import ProductGrid from "../components/ProductGrid.astro";
 import ProductGridHeader from "../components/ProductGridHeader.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-// 3. 删除原来的 const allProducts = await getCollection("products");
-// 现在 allProducts 直接就是上面的 JSON 数组，不需要 await
 const productsTotal = allProducts.length;
 
-// 4. 把标题改成你自己的品牌
 const title = "Tiny Crochet - All Patterns";
 ---
 
 <BaseLayout title={title}>
-    <Preloader />
-  <ProductGridHeader productsTotal={productsTotal} />
-  
-    <ProductGrid products={allProducts} />
+  <ProductGridHeader productsTotal={productsTotal} />
+  <ProductGrid products={allProducts} />
 </BaseLayout>
-<script src="../scripts/index.js"></script>
