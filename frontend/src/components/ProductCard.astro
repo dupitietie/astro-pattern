@@ -4,7 +4,7 @@ type Props = {
     id: string;
     name: string;
     description: string;
-    price: string;
+    price: number; // 👈 已经为你同步修改为 number
     imageUrl: string;
     stripeLink: string;
   };
@@ -51,11 +51,8 @@ const creatorName = "Tiny Crochet";
     flex-direction: column;
     align-content: start;
     width: 100%;
-    
-    /* 核心修复：给卡片加上最大宽度限制，数值你可以根据喜好微调 */
     max-width: 300px; 
-    margin: 0 auto; /* 保证卡片在各自的网格里居中对齐 */
-    
+    margin: 0 auto; 
     cursor: pointer;
     text-decoration: none;
     color: inherit;
@@ -64,21 +61,14 @@ const creatorName = "Tiny Crochet";
   .custom-image {
     width: 100%;
     height: auto;
-    
-    /* 这里控制图片的比例。1 / 1 是正方形，非常适合钩织玩偶展示。
-       如果你想让图片更修长一点，可以改成 3 / 4 */
     aspect-ratio: 1 / 1; 
-    
     object-fit: cover;
     background: var(--color-placeholder, #f0f0f0);
     display: block;
-    border-radius: 12px; /* 把圆角调大了一点，看起来更精致可爱 */
-    
-    /* 加一点淡淡的阴影，让卡片有立体感 */
+    border-radius: 12px; 
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
   }
 
-  /* --- 下面的手机端样式保持不变 --- */
   .mobile-info {
     margin-top: 0.75rem;
     display: flex;
@@ -86,7 +76,7 @@ const creatorName = "Tiny Crochet";
     align-items: flex-start;
     font-size: 0.9rem;
     line-height: 1.2;
-    padding: 0 0.25rem; /* 给文字两边留一点呼吸空间 */
+    padding: 0 0.25rem; 
   }
 
   .mobile-title {
