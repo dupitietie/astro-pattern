@@ -1,12 +1,79 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const title = "Players Club - Contact";
+// 把网页标签页的名字换成你的品牌名
+const title = "Contact - Tiny Crochet";
 ---
 
 <BaseLayout title={title}>
   <div class="content content--page">
-    <h1>Contact</h1>
-    <p>This is just an example page</p>
+    <h1>Contact Us</h1>
+    
+    <div class="contact-info">
+      <p>If you have any questions about our crochet patterns, need help with your downloaded files, or just want to share your finished amigurumi with us, please feel free to reach out!</p>
+      
+      <p class="email-box">
+        Email us at: <a href="mailto:unihandcraft8@gmail.com"><strong>unihandcraft8@gmail.com</strong></a>
+      </p>
+      
+      <p class="reply-time">We typically reply within 24-48 hours.</p>
+    </div>
   </div>
 </BaseLayout>
+
+<style>
+  /* 增加一点简单的居中排版，让联系页面看起来更精致专业 */
+  .content--page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 6rem 2rem;
+    text-align: center;
+    font-family: inherit;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #111;
+  }
+
+  .contact-info {
+    background-color: #f9f9f9;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+  }
+
+  p {
+    color: #555;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+
+  .email-box {
+    font-size: 1.15rem;
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+  }
+
+  .email-box a {
+    color: #000;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .email-box a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+  }
+
+  .reply-time {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin-bottom: 0;
+  }
+</style>
