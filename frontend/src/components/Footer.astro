@@ -6,6 +6,12 @@ const currentYear = new Date().getFullYear();
 <footer class="site-footer">
   <p>&copy; {currentYear} Tiny Crochet. All rights reserved.</p>
   <p class="sub-text">Digital PDF Amigurumi Patterns</p>
+  
+  <div class="legal-links">
+    <a href="/privacy">Privacy Policy</a>
+    <span class="divider">|</span>
+    <a href="/terms">Terms of Service</a>
+  </div>
 </footer>
 
 <style>
@@ -26,5 +32,28 @@ const currentYear = new Date().getFullYear();
     margin-top: 0.5rem;
     font-size: 0.75rem;
     opacity: 0.5;
+  }
+
+  /* 法律链接的专属样式 */
+  .legal-links {
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+  }
+
+  .legal-links a {
+    color: #888;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .legal-links a:hover {
+    color: #111;
+    text-decoration: underline;
+  }
+
+  .divider {
+    margin: 0 0.8rem;
+    color: #ccc;
+    font-size: 0.7rem;
   }
 </style>

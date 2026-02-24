@@ -1,0 +1,36 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Terms of Service - Tiny Crochet">
+  <div class="legal-container">
+    <h1>Terms of Service</h1>
+    <p>Last updated: {new Date().toLocaleDateString()}</p>
+    
+    <h2>1. Digital Products</h2>
+    <p>All products sold on Tiny Crochet are digital PDF amigurumi patterns. <strong>No physical items will be shipped to you.</strong> You are purchasing a digital file to download.</p>
+    
+    <h2>2. Refund Policy</h2>
+    <p>Due to the nature of digital downloads, <strong>all sales are final.</strong> We do not offer refunds, returns, or exchanges once the PDF has been purchased and the download link has been sent. Please ensure you are buying the correct pattern before checkout.</p>
+    
+    <h2>3. Copyright & Usage</h2>
+    <p>All patterns are original designs by Tiny Crochet and are for personal use only. You may not sell, distribute, or copy the patterns themselves. However, you are welcome to sell the finished handmade items created from these patterns, provided you credit Tiny Crochet as the designer.</p>
+
+    <h2>4. Contact</h2>
+    <p>If you experience any issues downloading your files, please contact <strong>unihandcraft8@gmail.com</strong> for assistance.</p>
+  </div>
+</BaseLayout>
+
+<style>
+  .legal-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    line-height: 1.6;
+    font-family: inherit;
+  }
+  h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+  h2 { font-size: 1.25rem; margin-top: 2rem; margin-bottom: 1rem; }
+  p { margin-bottom: 1rem; color: #555; font-size: 0.95rem; }
+  strong { color: #111; }
+</style>
