@@ -1,13 +1,48 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
-
-const title = "Players Club - Success";
+// src/pages/success.astro
 ---
 
-<BaseLayout title={title}>
-  <div class="content content--page">
-    <h1>Thank you for your support</h1>
-    <p>Enjoy</p>
-    <a href="/">Back Home</a>
-  </div>
-</BaseLayout>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Payment Successful | Thank You</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+      .container {
+        text-align: center;
+        padding: 40px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      }
+      h1 { color: #10B981; }
+      p { margin-top: 10px; line-height: 1.6; }
+      .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎉 Payment Successful!</h1>
+      <p>Thank you for your support! Your order has been confirmed.<br>The crochet pattern PDF has been sent to your email. Please check your inbox.</p>
+      <a href="/" class="btn">Return to Homepage</a>
+    </div>
+  </body>
+</html>
