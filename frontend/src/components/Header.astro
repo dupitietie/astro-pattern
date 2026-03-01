@@ -5,6 +5,7 @@
 <header class="site-header">
   <div class="logo-container">
     <a href="/" class="brand-name">Tiny Crochet</a>
+    <p class="site-desc">A platform to share and sell crochet-related tutorials and patterns.</p>
   </div>
   
   <nav class="nav-links">
@@ -23,12 +24,25 @@
     font-family: inherit;
   }
 
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
   .brand-name {
     font-size: 1.25rem;
     font-weight: 700;
     text-decoration: none;
     color: inherit;
     text-transform: uppercase; /* 大写字母更显高级 */
+  }
+
+  .site-desc {
+    font-size: 0.8rem;
+    color: #666;
+    margin: 0;
+    opacity: 0.8;
   }
 
   .nav-links {
