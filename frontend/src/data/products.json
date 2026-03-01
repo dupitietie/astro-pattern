@@ -1,6 +1,14 @@
 [
   {
     "id": "2f9fef1a-766e-80ab-b669-e5f92fa1389b",
+    "name": "FloweryPanda",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/FloweryPanda-2f9fef1a-766e-80ab-b669-e5f92fa1389b",
+    "stripeLink": "https://buy.stripe.com/cNi6oJbofePj4pR6IfefC01"
+  },
+  {
+    "id": "2f9fef1a-766e-80ab-b669-e5f92fa1389b",
     "name": "flowery_panda",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
     "price": 3,
