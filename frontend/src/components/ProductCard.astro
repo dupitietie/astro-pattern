@@ -23,14 +23,16 @@ const creatorName = "Tiny Crochet";
   target="_blank"
 >
   <article>
-    <img 
-      src={product.imageUrl} 
-      alt={product.name} 
-      width="800" 
-      height="800" 
-      loading="lazy"
-      class="custom-image"
-    />
+    <div class="image-container">
+      <img 
+        src={product.imageUrl} 
+        alt={product.name} 
+        width="800" 
+        height="800" 
+        loading="lazy"
+        class="custom-image"
+      />
+    </div>
     
     <div class="mobile-info">
       <h3 class="mobile-title">{product.name}</h3>
@@ -53,9 +55,15 @@ const creatorName = "Tiny Crochet";
     width: 100%;
     max-width: 300px; 
     margin: 0 auto; 
-    cursor: pointer;
     text-decoration: none;
     color: inherit;
+  }
+
+  .image-container {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
   }
 
   .custom-image {
