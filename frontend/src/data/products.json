@@ -1,5 +1,13 @@
 [
   {
+    "id": "4",
+    "name": "Dachshund",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Dachshund-318fef1a-766e-807c-acf1-c51fc6be0990",
+    "stripeLink": "https://buy.stripe.com/fZu3cx8c39uZaOf8QnefC08"
+  },
+  {
     "id": "3",
     "name": "ReadingDuck",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
