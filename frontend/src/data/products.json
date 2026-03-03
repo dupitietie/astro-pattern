@@ -1,5 +1,13 @@
 [
   {
+    "id": "6",
+    "name": "BubbleTeaKitty",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/BubbleTeaKitty-318fef1a-766e-8096-a4ca-e248eb9a2a7e",
+    "stripeLink": "https://buy.stripe.com/aFa5kFcsj6iN9Kbd6DefC0a"
+  },
+  {
     "id": "5",
     "name": "BirthdayKitty",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
