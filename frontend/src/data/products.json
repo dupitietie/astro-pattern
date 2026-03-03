@@ -1,5 +1,13 @@
 [
   {
+    "id": "5",
+    "name": "BirthdayKitty",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/BirthdayKitty-318fef1a-766e-808b-82a2-c11e23d89f28",
+    "stripeLink": "https://buy.stripe.com/8x2cN7gIz7mR8G76IfefC09"
+  },
+  {
     "id": "4",
     "name": "Dachshund",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
