@@ -1,5 +1,13 @@
 [
   {
+    "id": "53",
+    "name": "Kitty_Ring_Box",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Kitty_Ring_Box-319fef1a-766e-80c6-803f-c9fbfbcc5ffc",
+    "stripeLink": "https://buy.stripe.com/bJebJ3dwn7mRcWnd6DefC0T"
+  },
+  {
     "id": "52",
     "name": "penguin",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
