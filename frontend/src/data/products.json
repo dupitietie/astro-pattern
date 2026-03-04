@@ -1,5 +1,13 @@
 [
   {
+    "id": "26",
+    "name": "Macarons_kitty",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Macarons_kitty-319fef1a-766e-8088-b019-d7e4ae6dcedb",
+    "stripeLink": "https://buy.stripe.com/00w5kFeAr36Bg8z3w3efC0t"
+  },
+  {
     "id": "25",
     "name": "horse_kitty",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
