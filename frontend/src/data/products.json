@@ -1,5 +1,13 @@
 [
   {
+    "id": "20",
+    "name": "Siamese_Dumplings",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Siamese_Dumplings-319fef1a-766e-80e2-8861-e2c58090eae4",
+    "stripeLink": "https://buy.stripe.com/cNi28tcsjcHb6xZeaHefC0n"
+  },
+  {
     "id": "19",
     "name": "Apple_Kitty",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
