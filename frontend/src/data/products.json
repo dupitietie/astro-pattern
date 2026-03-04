@@ -1,5 +1,13 @@
 [
   {
+    "id": "16",
+    "name": "CakePurse",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/CakePurse-319fef1a-766e-80f7-b5cc-e57dfc4ba329",
+    "stripeLink": "https://buy.stripe.com/28EaEZ63V7mR7C34A7efC0j"
+  },
+  {
     "id": "15",
     "name": "Cinnamoroll",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
