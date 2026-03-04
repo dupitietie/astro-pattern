@@ -1,5 +1,13 @@
 [
   {
+    "id": "51",
+    "name": "Little_Monster",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Little_Monster-319fef1a-766e-80c1-9e66-e703e893bd9f",
+    "stripeLink": "https://buy.stripe.com/dRm28t4ZR9uZ4pR3w3efC0S"
+  },
+  {
     "id": "50",
     "name": "Little_Frog",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
