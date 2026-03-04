@@ -1,5 +1,13 @@
 [
   {
+    "id": "10",
+    "name": "Crybaby",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Crybaby-319fef1a-766e-8026-af85-cbcd43bea3db",
+    "stripeLink": "https://buy.stripe.com/9B6dRbeAr8qV5tV9UrefC0d"
+  },
+  {
     "id": "9",
     "name": "Pompompurin",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
