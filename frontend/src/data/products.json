@@ -1,5 +1,13 @@
 [
   {
+    "id": "21",
+    "name": "christmas_tree",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/christmas_tree-319fef1a-766e-8066-a008-db0eba6cde86",
+    "stripeLink": "https://buy.stripe.com/bJeeVf4ZRbD77C36IfefC0o"
+  },
+  {
     "id": "20",
     "name": "Siamese_Dumplings",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
