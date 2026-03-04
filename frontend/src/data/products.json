@@ -1,5 +1,13 @@
 [
   {
+    "id": "12",
+    "name": "PuppyAirPodsCase",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/PuppyAirPodsCase-319fef1a-766e-8009-96e4-e46a68f0b726",
+    "stripeLink": "https://buy.stripe.com/4gM9AVgIz7mR09BgiPefC0f"
+  },
+  {
     "id": "10",
     "name": "Crybaby",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
