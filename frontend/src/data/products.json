@@ -1,5 +1,13 @@
 [
   {
+    "id": "52",
+    "name": "penguin",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/penguin-319fef1a-766e-80c3-9183-dd1c9c42ec87",
+    "stripeLink": "https://buy.stripe.com/cNi14p0JB8qV8G7giPefC0U"
+  },
+  {
     "id": "51",
     "name": "Little_Monster",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
