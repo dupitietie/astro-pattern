@@ -1,5 +1,13 @@
 [
   {
+    "id": "55",
+    "name": "bear_snowman",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/bear_snowman-319fef1a-766e-80cc-97d6-d4c6ded67505",
+    "stripeLink": "https://buy.stripe.com/28E00l2RJbD77C32rZefC0W"
+  },
+  {
     "id": "54",
     "name": "birthdaycake_box",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
