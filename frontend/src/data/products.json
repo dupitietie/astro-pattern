@@ -1,5 +1,13 @@
 [
   {
+    "id": "24",
+    "name": "halloween_kitty",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/halloween_kitty-319fef1a-766e-8048-9232-f2401bc365ec",
+    "stripeLink": "https://buy.stripe.com/eVq3cxbofaz3cWn3w3efC0r"
+  },
+  {
     "id": "23",
     "name": "Joke_Bear",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
