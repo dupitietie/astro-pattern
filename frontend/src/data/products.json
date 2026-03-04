@@ -1,5 +1,13 @@
 [
   {
+    "id": "46",
+    "name": "Patrick_Star",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 5,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Patrick_Star-319fef1a-766e-8073-a848-cdfc6d5e3f56",
+    "stripeLink": "https://buy.stripe.com/cNi00l8c3bD76xZaYvefC0N"
+  },
+  {
     "id": "45",
     "name": "Lotso_Bear",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
