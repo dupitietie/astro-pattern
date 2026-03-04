@@ -1,5 +1,13 @@
 [
   {
+    "id": "19",
+    "name": "Apple_Kitty",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 5,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Apple_Kitty-319fef1a-766e-80f7-ad05-cfba2efd982d",
+    "stripeLink": "https://buy.stripe.com/eVqeVffEv22x1dF4A7efC0m"
+  },
+  {
     "id": "18",
     "name": "Apple_Snowman",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
