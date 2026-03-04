@@ -1,5 +1,13 @@
 [
   {
+    "id": "40",
+    "name": "gourd",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/gourd-319fef1a-766e-80a7-b50c-d7d0bc0dc1dc",
+    "stripeLink": "https://buy.stripe.com/cNi14p9g7fTncWn3w3efC0H"
+  },
+  {
     "id": "39",
     "name": "duck_pear",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
