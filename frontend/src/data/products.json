@@ -1,5 +1,13 @@
 [
   {
+    "id": "38",
+    "name": "strawberry_bowl_kitty",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 5,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/strawberry_bowl_kitty-319fef1a-766e-80b1-b108-e2ffaa61b8bb",
+    "stripeLink": "https://buy.stripe.com/14AeVf2RJ8qV09B1nVefC0F"
+  },
+  {
     "id": "37",
     "name": "eggplant",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
