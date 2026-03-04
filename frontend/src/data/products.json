@@ -1,5 +1,13 @@
 [
   {
+    "id": "49",
+    "name": "Capybara_Burger",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 5,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Capybara_Burger-319fef1a-766e-80ba-b821-fa981ebc15ed",
+    "stripeLink": "https://buy.stripe.com/7sY00lfEvbD7cWn8QnefC0Q"
+  },
+  {
     "id": "48",
     "name": "Calla_Lily",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
