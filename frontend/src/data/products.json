@@ -1,5 +1,13 @@
 [
   {
+    "id": "99",
+    "name": "Pudding_Kt",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Pudding_Kt-31afef1a-766e-8066-a04b-d867066e9b1b",
+    "stripeLink": "https://buy.stripe.com/7sY9AV77Z22x3lNeaHefC1E"
+  },
+  {
     "id": "98",
     "name": "Croissant",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
