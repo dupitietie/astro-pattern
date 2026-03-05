@@ -1,5 +1,13 @@
 [
   {
+    "id": "93",
+    "name": "Lion",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Lion-31afef1a-766e-8060-ad8d-ca8e732d1371",
+    "stripeLink": "https://buy.stripe.com/6oUbJ31NFaz3e0r1nVefC1y"
+  },
+  {
     "id": "92",
     "name": "Flog",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
