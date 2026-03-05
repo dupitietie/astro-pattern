@@ -24,22 +24,6 @@
     "stripeLink": "https://buy.stripe.com/00wdRb0JBbD7f4v7MjefC10"
   },
   {
-    "id": "58",
-    "name": "Unicorn_",
-    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
-    "price": 5,
-    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Unicorn_Twinkle-319fef1a-766e-80b7-8e7b-da3a955cde64",
-    "stripeLink": "https://buy.stripe.com/4gMfZj63V5eJ1dF3w3efC0Z"
-  },
-  {
-    "id": "57",
-    "name": "Albatross_",
-    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
-    "price": 5,
-    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Albatross_Twinkle-319fef1a-766e-8049-9f89-c2568290e779",
-    "stripeLink": "https://buy.stripe.com/5kQeVf4ZR22x4pR0jRefC0Y"
-  },
-  {
     "id": "56",
     "name": "Demogorgon_Kitty",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
