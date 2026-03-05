@@ -1,5 +1,13 @@
 [
   {
+    "id": "98",
+    "name": "Croissant",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Croissant-31afef1a-766e-803c-95b3-ea51a6f9ddbf",
+    "stripeLink": "https://buy.stripe.com/8x200lcsj36B1dF8QnefC1D"
+  },
+  {
     "id": "97",
     "name": "Avocado_Piggy",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
