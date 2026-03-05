@@ -1,5 +1,13 @@
 [
   {
+    "id": "70",
+    "name": "Albatross_Star",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 5,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Albatross_Star-319fef1a-766e-8049-9f89-c2568290e779",
+    "stripeLink": "https://buy.stripe.com/8x24gBcsj5eJ8G78QnefC15"
+  },
+  {
     "id": "61",
     "name": "Christmas_Tree_Pillow",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
