@@ -1,5 +1,13 @@
 [
   {
+    "id": "97",
+    "name": "Avocado_Piggy",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Avocado_Piggy-31afef1a-766e-8065-beb6-d7fe45f94392",
+    "stripeLink": "https://buy.stripe.com/3cI5kF77Z4aF6xZ7MjefC1C"
+  },
+  {
     "id": "96",
     "name": "Panda",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
