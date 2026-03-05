@@ -28,7 +28,10 @@ const loadImages = () => {
 		const imgLoad = imagesLoaded(allElements, { background: true });
 		imgLoad.on("done", resolve);
 		imgLoad.on("fail", () => {
-			reject(new Error("Failed to load some images or assets"));
+			// Resolve instead of reject — some images may have failed,
+			// but the page should still display.
+			console.warn("Some images failed to load, continuing anyway.");
+			resolve();
 		});
 	});
 };
@@ -37,11 +40,12 @@ const loadImages = () => {
 const loadAssets = async () => {
 	try {
 		await loadImages();
-		const event = new CustomEvent("assetsLoaded");
-		document.dispatchEvent(event);
 	} catch (error) {
 		console.error("Failed to load assets:", error);
-		throw error;
+	} finally {
+		// Always dispatch assetsLoaded so the page animation can proceed.
+		const event = new CustomEvent("assetsLoaded");
+		document.dispatchEvent(event);
 	}
 };
 
@@ -52,12 +56,28 @@ const toggleLoading = async () => {
 		return;
 	}
 	show();
+
+	// Safety timeout: if assets take too long, force-show the page anyway.
+	const safetyTimer = setTimeout(() => {
+		console.warn("Preloader safety timeout reached, forcing page display.");
+		const event = new CustomEvent("assetsLoaded");
+		document.dispatchEvent(event);
+		sessionStorage.setItem("preloadComplete", "true");
+		hide();
+	}, 8000);
+
 	try {
 		await loadAssets();
+		clearTimeout(safetyTimer);
 		sessionStorage.setItem("preloadComplete", "true");
 		hide();
 	} catch (error) {
+		clearTimeout(safetyTimer);
 		console.error("Failed to load assets or animate:", error);
+		// Still dispatch and hide, so the page is never permanently blank.
+		const event = new CustomEvent("assetsLoaded");
+		document.dispatchEvent(event);
+		hide();
 	}
 };
 
