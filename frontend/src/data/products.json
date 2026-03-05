@@ -1,5 +1,13 @@
 [
   {
+    "id": "90",
+    "name": "Rose",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Rose-31afef1a-766e-8071-8c29-ca6a1c6c55e6",
+    "stripeLink": "https://buy.stripe.com/5kQ6oJbofbD7bSj0jRefC1v"
+  },
+  {
     "id": "89",
     "name": "Christmas_Tree",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
