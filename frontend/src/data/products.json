@@ -1,5 +1,13 @@
 [
   {
+    "id": "64",
+    "name": "Button_Hat",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Button_Hat-31afef1a-766e-8079-9d7f-fef7f5f43378",
+    "stripeLink": "https://buy.stripe.com/3cI14pakb9uZcWn7MjefC1c"
+  },
+  {
     "id": "67",
     "name": "Pink_Hat",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
