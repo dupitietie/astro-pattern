@@ -1,5 +1,13 @@
 [
   {
+    "id": "101",
+    "name": "Strawberry_Cake",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 4,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Strawberry_Cake-31afef1a-766e-809c-88b1-f66fe5ea5625",
+    "stripeLink": "https://buy.stripe.com/aFa14pakb5eJ1dFfeLefC1G"
+  },
+  {
     "id": "100",
     "name": "Lion",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
