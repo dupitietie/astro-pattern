@@ -1,5 +1,13 @@
 [
   {
+    "id": "74",
+    "name": "Duck",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Duck-31afef1a-766e-8035-ba8a-e928329d3619",
+    "stripeLink": "https://buy.stripe.com/aFa3cxgIz36B5tV3w3efC18"
+  },
+  {
     "id": "71",
     "name": "Unicorn_Star",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
