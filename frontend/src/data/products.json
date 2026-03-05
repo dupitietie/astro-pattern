@@ -1,5 +1,13 @@
 [
   {
+    "id": "68",
+    "name": "Star_Hat",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Star_Hat-31afef1a-766e-807d-a36f-ecf80d6f1ad2",
+    "stripeLink": "https://buy.stripe.com/14AbJ3gIz7mRg8z5EbefC1d"
+  },
+  {
     "id": "66",
     "name": "Capybara_Hat",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
