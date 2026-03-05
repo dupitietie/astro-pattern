@@ -1,5 +1,13 @@
 [
   {
+    "id": "66",
+    "name": "Capybara_Hat",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Capybara_Hat-31afef1a-766e-80c0-be2d-f50c8e9d0370",
+    "stripeLink": "https://buy.stripe.com/28EbJ3dwnaz36xZ0jRefC1h"
+  },
+  {
     "id": "65",
     "name": "Mouse_Hat",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
