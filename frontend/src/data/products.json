@@ -1,5 +1,13 @@
 [
   {
+    "id": "78",
+    "name": "Ballet_Bear",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Ballet_Bear-31afef1a-766e-80cb-a7e7-c1161e8d3638",
+    "stripeLink": "https://buy.stripe.com/cNi00l77Z0Yt4pR0jRefC1m"
+  },
+  {
     "id": "77",
     "name": "Christmas_Tree_",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
