@@ -1,5 +1,13 @@
 [
   {
+    "id": "83",
+    "name": "Rainbow_Star",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 5,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Rainbow_Star-31afef1a-766e-80d8-b026-e9aa102e669c",
+    "stripeLink": "https://buy.stripe.com/dRmeVfakbfTnaOf1nVefC1o"
+  },
+  {
     "id": "82",
     "name": "Snow_Kt",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
