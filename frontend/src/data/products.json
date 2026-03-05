@@ -1,5 +1,13 @@
 [
   {
+    "id": "81",
+    "name": "BubbleTea_Star",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 5,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/BubbleTea_Star-31afef1a-766e-80ba-8f7f-d77244899175",
+    "stripeLink": "https://buy.stripe.com/28E7sN9g7dLf1dF6IfefC1j"
+  },
+  {
     "id": "80",
     "name": "Wind_Star",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
