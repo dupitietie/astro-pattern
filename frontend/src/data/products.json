@@ -1,5 +1,13 @@
 [
   {
+    "id": "102",
+    "name": "Mushroom",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Mushroom-31afef1a-766e-80ab-a284-ff89c469d193",
+    "stripeLink": "https://buy.stripe.com/5kQ7sN3VN0Yt7C34A7efC1H"
+  },
+  {
     "id": "101",
     "name": "Strawberry_Cake",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
