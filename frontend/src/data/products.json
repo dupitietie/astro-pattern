@@ -1,5 +1,13 @@
 [
   {
+    "id": "65",
+    "name": "Mouse_Hat",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Mouse_Hat-31afef1a-766e-808d-a0ed-fe0e0c9c8960",
+    "stripeLink": "https://buy.stripe.com/9B600l0JB6iNaOfc2zefC1e"
+  },
+  {
     "id": "64",
     "name": "Button_Hat",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
