@@ -1,5 +1,13 @@
 [
   {
+    "id": "94",
+    "name": "Potted_Plant",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 5,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Potted_Plant-31afef1a-766e-809b-a895-ca70b6ef8661",
+    "stripeLink": "https://buy.stripe.com/eVqbJ30JB5eJ2hJ9UrefC1z"
+  },
+  {
     "id": "93",
     "name": "Lion",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
