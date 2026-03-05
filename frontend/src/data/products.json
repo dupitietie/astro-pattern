@@ -1,5 +1,13 @@
 [
   {
+    "id": "75",
+    "name": "Strawberry_Cake",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Strawberry_Cake-31afef1a-766e-805d-9b3c-dc4688ace733",
+    "stripeLink": "https://buy.stripe.com/8x24gBbofgXr3lNd6DefC19"
+  },
+  {
     "id": "73",
     "name": "Bubble_Tea",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
