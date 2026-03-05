@@ -1,5 +1,13 @@
 [
   {
+    "id": "103",
+    "name": "Christmas_Kt",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Christmas_Kt-31afef1a-766e-80ae-8d45-d67d05751ba8",
+    "stripeLink": "https://buy.stripe.com/14A14pfEv5eJ5tVc2zefC1I"
+  },
+  {
     "id": "102",
     "name": "Mushroom",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
