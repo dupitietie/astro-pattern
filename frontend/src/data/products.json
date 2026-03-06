@@ -1,5 +1,13 @@
 [
   {
+    "id": "119",
+    "name": "Strawberry_Bear",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Strawberry_Bear-31bfef1a-766e-8028-8e9a-f656bd074c5f",
+    "stripeLink": "https://buy.stripe.com/7sY28tgIzcHbcWn4A7efC1Y"
+  },
+  {
     "id": "118",
     "name": "Cat_Fish",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
