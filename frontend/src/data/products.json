@@ -1,5 +1,13 @@
 [
   {
+    "id": "158",
+    "name": "Piggy_Coaster",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Piggy_Coaster-31bfef1a-766e-808f-b4ec-c2df75d168a1",
+    "stripeLink": "https://buy.stripe.com/7sY3cx0JB22x7C31nVefC2B"
+  },
+  {
     "id": "157",
     "name": "Shoulder_Bag",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
