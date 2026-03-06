@@ -1,5 +1,13 @@
 [
   {
+    "id": "146",
+    "name": "Maillard_Handbag",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Maillard_Handbag-31bfef1a-766e-8074-9c08-d47b14004ad6",
+    "stripeLink": "https://buy.stripe.com/5kQ4gBcsjfTn9Kb2rZefC2p"
+  },
+  {
     "id": "145",
     "name": "Keyboard_Pad",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
