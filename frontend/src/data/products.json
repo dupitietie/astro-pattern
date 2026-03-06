@@ -1,5 +1,13 @@
 [
   {
+    "id": "150",
+    "name": "Bucket_Hat",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Bucket_Hat-31bfef1a-766e-8011-8318-e3b64bc73ce3",
+    "stripeLink": "https://buy.stripe.com/bJe9AV3VN5eJ1dFgiPefC2t"
+  },
+  {
     "id": "149",
     "name": "Popcorn_Bag",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
