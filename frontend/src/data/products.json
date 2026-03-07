@@ -1,5 +1,13 @@
 [
   {
+    "id": "198",
+    "name": "Bear_Card_Holder",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Bear_Card_Holder-31cfef1a-766e-8023-b70f-e5267cd7a11a",
+    "stripeLink": "https://buy.stripe.com/6oU7sN1NF22x9Kb6IfefC2T"
+  },
+  {
     "id": "197",
     "name": "Cheese_Sausage_Bun",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
