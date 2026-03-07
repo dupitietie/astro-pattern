@@ -1,5 +1,13 @@
 [
   {
+    "id": "204",
+    "name": "Baguette",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Baguette-31cfef1a-766e-803c-bbaa-dfef7090dcd5",
+    "stripeLink": "https://buy.stripe.com/4gM28t0JB8qV4pRc2zefC30"
+  },
+  {
     "id": "203",
     "name": "Apple_Piggy",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
