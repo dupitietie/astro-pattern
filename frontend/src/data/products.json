@@ -1,5 +1,13 @@
 [
   {
+    "id": "226",
+    "name": "Beer",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Beer-31cfef1a-766e-80f5-8e7c-c6acbe127978",
+    "stripeLink": "https://buy.stripe.com/fZu28t77Z6iN1dFc2zefC3H"
+  },
+  {
     "id": "225",
     "name": "Coffee",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
