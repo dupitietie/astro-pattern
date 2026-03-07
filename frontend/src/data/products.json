@@ -1,5 +1,13 @@
 [
   {
+    "id": "193",
+    "name": "Star_Coaster",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Star_Coaster-31cfef1a-766e-80e1-8776-e319dcbc50b8",
+    "stripeLink": "https://buy.stripe.com/eVqbJ363V7mRf4v7MjefC3y"
+  },
+  {
     "id": "192",
     "name": "Animals_Storage_Basket",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
