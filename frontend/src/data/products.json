@@ -1,5 +1,13 @@
 [
   {
+    "id": "168",
+    "name": "Bear_Card_Holder",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Bear_Card_Holder-31cfef1a-766e-802d-98ea-f38fa54f4589",
+    "stripeLink": "https://buy.stripe.com/cNi8wR2RJ5eJ1dF9UrefC2L"
+  },
+  {
     "id": "167",
     "name": "Vacation_bag",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
