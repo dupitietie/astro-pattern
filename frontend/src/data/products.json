@@ -1,5 +1,13 @@
 [
   {
+    "id": "196",
+    "name": "Squirrel_Coaster",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Squirrel_Coaster-31cfef1a-766e-80fb-ba56-f73dc658a1d3",
+    "stripeLink": "https://buy.stripe.com/dRm4gB8c3az32hJgiPefC3D"
+  },
+  {
     "id": "195",
     "name": "Cake_Box",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
