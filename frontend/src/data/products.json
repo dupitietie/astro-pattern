@@ -1,5 +1,13 @@
 [
   {
+    "id": "218",
+    "name": "Snacks",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Snacks-31cfef1a-766e-80b2-80bc-ef8dc48223d5",
+    "stripeLink": "https://buy.stripe.com/dRm5kFcsj6iNf4vfeLefC3r"
+  },
+  {
     "id": "217",
     "name": "Pine",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
