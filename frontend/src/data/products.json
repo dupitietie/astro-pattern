@@ -1,5 +1,13 @@
 [
   {
+    "id": "167",
+    "name": "Vacation_bag",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Vacation_bag-31bfef1a-766e-80a8-a31c-f208f16070cd",
+    "stripeLink": "https://buy.stripe.com/5kQ4gB4ZRaz309BgiPefC2K"
+  },
+  {
     "id": "166",
     "name": "icecream_Bag",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
