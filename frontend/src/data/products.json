@@ -1,5 +1,13 @@
 [
   {
+    "id": "220",
+    "name": "Peach",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Peach-31cfef1a-766e-80c4-b468-e961c57ab9ef",
+    "stripeLink": "https://buy.stripe.com/8x2bJ3bof5eJ8G7eaHefC3w"
+  },
+  {
     "id": "219",
     "name": "Bear",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
