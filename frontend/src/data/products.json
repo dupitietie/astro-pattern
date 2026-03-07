@@ -1,5 +1,13 @@
 [
   {
+    "id": "208",
+    "name": "Toaster",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Toaster-31cfef1a-766e-8067-884a-cd925fd0195e",
+    "stripeLink": "https://buy.stripe.com/5kQ3cx4ZRfTn8G7c2zefC3a"
+  },
+  {
     "id": "207",
     "name": "BBQ_Skewers",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
