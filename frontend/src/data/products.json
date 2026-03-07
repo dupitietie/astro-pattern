@@ -1,5 +1,13 @@
 [
   {
+    "id": "202",
+    "name": "Pancakes",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Pancakes-31cfef1a-766e-802c-88eb-ff77aa3018bc",
+    "stripeLink": "https://buy.stripe.com/cNifZj0JB36Bf4v9UrefC2V"
+  },
+  {
     "id": "201",
     "name": "Apple",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
