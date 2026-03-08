@@ -1,5 +1,13 @@
 [
   {
+    "id": "261",
+    "name": "Cake_Storage_Box",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Cake_Storage_Box-31dfef1a-766e-803d-8d43-f6184a977bf5",
+    "stripeLink": "https://buy.stripe.com/14A3cxeAr9uZ8G7d6DefD09"
+  },
+  {
     "id": "260",
     "name": "Acorn",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
