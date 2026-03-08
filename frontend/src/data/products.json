@@ -1,5 +1,13 @@
 [
   {
+    "id": "267",
+    "name": "Pink_Panther_Bag",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Pink_Panther_Bag-31dfef1a-766e-80ff-b417-d47046b80791",
+    "stripeLink": "https://buy.stripe.com/cNieVfbof6iN5tVd6DefD0f"
+  },
+  {
     "id": "266",
     "name": "Flower_Headband",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
