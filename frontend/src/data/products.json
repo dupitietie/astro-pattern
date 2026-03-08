@@ -1,5 +1,13 @@
 [
   {
+    "id": "265",
+    "name": "Canele_Cake",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Canele_Cake-31dfef1a-766e-80d8-a408-cc28eef977b5",
+    "stripeLink": "https://buy.stripe.com/eVq7sNdwngXr6xZ7MjefD0d"
+  },
+  {
     "id": "264",
     "name": "Ferrero",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
