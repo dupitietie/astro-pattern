@@ -1,5 +1,13 @@
 [
   {
+    "id": "245",
+    "name": "Fish_Set",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Fish_Set-31dfef1a-766e-8075-95b2-ff963453db40",
+    "stripeLink": "https://buy.stripe.com/dRm8wR9g722x8G71nVefC40"
+  },
+  {
     "id": "244",
     "name": "Apple_Coaster",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
