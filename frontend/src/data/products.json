@@ -1,5 +1,13 @@
 [
   {
+    "id": "248",
+    "name": "Hamburger_Bag",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Hamburger_Bag-31dfef1a-766e-80ce-99bb-e9ca7e25202e",
+    "stripeLink": "https://buy.stripe.com/aFaaEZ63V9uZ2hJ1nVefC43"
+  },
+  {
     "id": "247",
     "name": "Shiba",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
