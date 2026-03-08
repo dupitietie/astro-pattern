@@ -1,5 +1,13 @@
 [
   {
+    "id": "227",
+    "name": "Daisy_Vase",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Daisy_Vase-31dfef1a-766e-8044-bd4b-eb78b6c75b44",
+    "stripeLink": "https://buy.stripe.com/eVqaEZcsjfTn2hJd6DefC3I"
+  },
+  {
     "id": "226",
     "name": "Beer",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
