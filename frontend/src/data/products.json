@@ -1,5 +1,13 @@
 [
   {
+    "id": "249",
+    "name": "Rose_Coaster",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Rose_Coaster-31dfef1a-766e-80db-8375-c4ffa7072133",
+    "stripeLink": "https://buy.stripe.com/9B68wRakb7mR1dFfeLefC44"
+  },
+  {
     "id": "248",
     "name": "Hamburger_Bag",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
