@@ -1,5 +1,13 @@
 [
   {
+    "id": "252",
+    "name": "Shiba",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Shiba_Bag-31dfef1a-766e-808b-b71a-cd760bc34f57",
+    "stripeLink": "https://buy.stripe.com/9B6eVf8c3cHbf4v9UrefC47"
+  },
+  {
     "id": "251",
     "name": "Hyacinth_Potted_Plants",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
