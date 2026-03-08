@@ -1,5 +1,13 @@
 [
   {
+    "id": "247",
+    "name": "Shiba",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/ShibaInu_Bag-31dfef1a-766e-808b-b71a-cd760bc34f57",
+    "stripeLink": "https://buy.stripe.com/14A8wR2RJgXr2hJ6IfefC42"
+  },
+  {
     "id": "246",
     "name": "Cat_Mini_Bag",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
