@@ -87,7 +87,7 @@ const init = () => {
 // Run a callback only if the current page is the home page.
 const handlePageEvent = (_, callback) => {
 	const page = document.documentElement.getAttribute("data-page");
-	if (page === "home") callback();
+	if (page === "home" || page === "page" || !isNaN(page)) callback();
 };
 
 // Astro lifecycle hook: initialize animations on page load.

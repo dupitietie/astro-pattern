@@ -1,0 +1,33 @@
+---
+import type { GetStaticPaths } from "astro";
+import allProducts from "../../data/products.json";
+
+import Preloader from "../../components/Preloader.astro";
+import ProductGrid from "../../components/ProductGrid.astro";
+import ProductGridHeader from "../../components/ProductGridHeader.astro";
+import Pagination from "../../components/Pagination.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export const getStaticPaths = (async ({ paginate }) => {
+  return paginate(allProducts, { pageSize: 60 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+const productsTotal = allProducts.length;
+const title = `Tiny Crochet - All Patterns - Page ${page.currentPage}`;
+---
+
+<BaseLayout title={title}>
+  <Preloader />
+  
+  <ProductGridHeader productsTotal={productsTotal} />
+  <ProductGrid products={page.data} />
+  <Pagination
+    currentPage={page.currentPage}
+    lastPage={page.lastPage}
+    prevUrl={page.url.prev}
+    nextUrl={page.url.next}
+  />
+</BaseLayout>
+
+<script src="../../scripts/index.js"></script>

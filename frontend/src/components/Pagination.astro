@@ -1,0 +1,113 @@
+---
+type Props = {
+  currentPage: number;
+  lastPage: number;
+  prevUrl: string | undefined;
+  nextUrl: string | undefined;
+};
+
+const { currentPage, lastPage, prevUrl, nextUrl } = Astro.props;
+
+// 生成页码列表
+const pages = Array.from({ length: lastPage }, (_, i) => i + 1);
+---
+
+{lastPage > 1 && (
+  <nav class="pagination" aria-label="Page navigation">
+    <a
+      class={`pagination__link pagination__prev ${!prevUrl ? 'pagination__link--disabled' : ''}`}
+      href={prevUrl || '#'}
+      aria-disabled={!prevUrl}
+    >
+      ← Prev
+    </a>
+
+    <ul class="pagination__list">
+      {pages.map((pageNum) => (
+        <li>
+          <a
+            class={`pagination__link ${pageNum === currentPage ? 'pagination__link--active' : ''}`}
+            href={pageNum === 1 ? '/page' : `/page/${pageNum}`}
+            aria-current={pageNum === currentPage ? 'page' : undefined}
+          >
+            {pageNum}
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <a
+      class={`pagination__link pagination__next ${!nextUrl ? 'pagination__link--disabled' : ''}`}
+      href={nextUrl || '#'}
+      aria-disabled={!nextUrl}
+    >
+      Next →
+    </a>
+  </nav>
+)}
+
+<style>
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 2rem 1rem 4rem;
+    font-family: inherit;
+  }
+
+  .pagination__list {
+    display: flex;
+    list-style: none;
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pagination__link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid currentColor;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: inherit;
+    font-size: 0.875rem;
+    transition: background-color 0.2s, color 0.2s, opacity 0.2s;
+  }
+
+  .pagination__link:hover:not(.pagination__link--disabled):not(.pagination__link--active) {
+    background-color: var(--color-text, #000);
+    color: var(--color-bg, #fff);
+  }
+
+  .pagination__link--active {
+    background-color: var(--color-text, #000);
+    color: var(--color-bg, #fff);
+    pointer-events: none;
+  }
+
+  .pagination__link--disabled {
+    opacity: 0.3;
+    pointer-events: none;
+  }
+
+  @media screen and (max-width: 30em) {
+    .pagination {
+      gap: 0.25rem;
+    }
+    .pagination__link {
+      min-width: 2rem;
+      height: 2rem;
+      padding: 0.25rem 0.5rem;
+      font-size: 0.75rem;
+    }
+    .pagination__prev,
+    .pagination__next {
+      font-size: 0.75rem;
+    }
+  }
+</style>

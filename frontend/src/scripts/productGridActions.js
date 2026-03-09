@@ -101,7 +101,7 @@ const filterGrid = (searchValue) => {
 
 		item.style.display =
 			creatorName.includes(lowerCaseSearch) ||
-			productTitle.includes(lowerCaseSearch)
+				productTitle.includes(lowerCaseSearch)
 				? ""
 				: "none";
 	}
@@ -162,7 +162,7 @@ const cleanup = () => {
 /* Handle Astro page events on the home page */
 const handlePageEvent = (type) => {
 	const page = document.documentElement.getAttribute("data-page");
-	if (page !== "home") return;
+	if (page !== "home" && page !== "page" && isNaN(page)) return;
 	if (type === "load") {
 		init();
 	} else if (type === "before-swap") {
