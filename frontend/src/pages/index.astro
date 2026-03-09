@@ -1,4 +1,31 @@
 ---
-// 首页重定向到分页第一页
-return Astro.redirect("/page");
+import allProducts from "../data/products.json";
+
+import Preloader from "../components/Preloader.astro";
+import ProductGrid from "../components/ProductGrid.astro";
+import ProductGridHeader from "../components/ProductGridHeader.astro";
+import Pagination from "../components/Pagination.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const productsTotal = allProducts.length;
+const pageSize = 60;
+const lastPage = Math.ceil(productsTotal / pageSize);
+const pageData = allProducts.slice(0, pageSize);
+
+const title = `Tiny Crochet - All Patterns`;
 ---
+
+<BaseLayout title={title}>
+  <Preloader />
+  
+  <ProductGridHeader productsTotal={productsTotal} />
+  <ProductGrid products={pageData} />
+  <Pagination
+    currentPage={1}
+    lastPage={lastPage}
+    prevUrl={undefined}
+    nextUrl={lastPage > 1 ? "/page/2" : undefined}
+  />
+</BaseLayout>
+
+<script src="../scripts/index.js"></script>

@@ -25,7 +25,7 @@ const title = `Tiny Crochet - All Patterns - Page ${page.currentPage}`;
   <Pagination
     currentPage={page.currentPage}
     lastPage={page.lastPage}
-    prevUrl={page.url.prev}
+    prevUrl={page.currentPage === 2 ? '/' : page.url.prev}
     nextUrl={page.url.next}
   />
 </BaseLayout>
