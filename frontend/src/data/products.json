@@ -1,5 +1,13 @@
 [
   {
+    "id": "292",
+    "name": "Umbrella_Kitten",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Umbrella_Kitten-31ffef1a-766e-80d8-9328-f433f4d1674c",
+    "stripeLink": "https://buy.stripe.com/bJe3cx2RJgXrg8z9UrefD0E"
+  },
+  {
     "id": "291",
     "name": "Maillard_Pet_Collar",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
