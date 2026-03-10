@@ -1,5 +1,13 @@
 [
   {
+    "id": "301",
+    "name": "Crocodile",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Crocodile-31ffef1a-766e-8019-b1db-c6edebe43353",
+    "stripeLink": "https://buy.stripe.com/28EdRb4ZR5eJ9KbeaHefD0N"
+  },
+  {
     "id": "300",
     "name": "Osmanthus_Pet_Collar",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
