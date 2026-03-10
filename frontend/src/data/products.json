@@ -1,5 +1,13 @@
 [
   {
+    "id": "303",
+    "name": "Piggy_Coaster",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Piggy_Coaster-31ffef1a-766e-805b-9277-c7add8d60c3e",
+    "stripeLink": "https://buy.stripe.com/3cI7sN8c30Yt9KbfeLefD0P"
+  },
+  {
     "id": "302",
     "name": "Headphone_Bag",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
