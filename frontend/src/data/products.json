@@ -1,5 +1,13 @@
 [
   {
+    "id": "298",
+    "name": "Rose_Coaster",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Rose_Coaster-31ffef1a-766e-80b1-b404-d44e0735f663",
+    "stripeLink": "https://buy.stripe.com/cNi7sN8c38qV8G7d6DefD0K"
+  },
+  {
     "id": "297",
     "name": "Star_Pet_Collar",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
