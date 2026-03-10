@@ -1,5 +1,13 @@
 [
   {
+    "id": "293",
+    "name": "Bow_Tie",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Bow_Tie-31ffef1a-766e-8027-8340-ff73694b9b89",
+    "stripeLink": "https://buy.stripe.com/aFa6oJakbdLf2hJc2zefD0F"
+  },
+  {
     "id": "292",
     "name": "Umbrella_Kitten",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
