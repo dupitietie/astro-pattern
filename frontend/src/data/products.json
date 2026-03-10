@@ -1,5 +1,13 @@
 [
   {
+    "id": "304",
+    "name": "Mini_Bag",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Mini_Bag-31ffef1a-766e-80af-9e26-ccd7e905dd8b",
+    "stripeLink": "https://buy.stripe.com/5kQ9AVeAr7mR5tVd6DefD0Q"
+  },
+  {
     "id": "303",
     "name": "Piggy_Coaster",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
