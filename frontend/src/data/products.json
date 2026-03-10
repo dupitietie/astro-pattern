@@ -1,5 +1,13 @@
 [
   {
+    "id": "275",
+    "name": "Pet_Collar_Set",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Pet_Collar_Set-31ffef1a-766e-800a-9d3e-c8ecacc09b04",
+    "stripeLink": "https://buy.stripe.com/3cI9AV4ZRbD76xZ4A7efD0n"
+  },
+  {
     "id": "274",
     "name": "Unicorn_Scarf",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
