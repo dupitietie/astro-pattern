@@ -14,11 +14,10 @@ const { product } = Astro.props;
 const creatorName = "Tiny Crochet"; 
 
 /**
- * 对 Cloudflare Image Resizing URL 注入 format=auto 和 quality=80
- * format=auto: 根据浏览器自动返回 WebP/AVIF，体积减少 25-35%
- * quality=80: 适度压缩，肉眼无差异，体积再减 10-15%
+ * 生成 Cloudflare Image Resizing 优化 URL
+ * 替换尺寸参数并注入 format=auto + quality=80
  */
-function optimizeImageUrl(url: string): string {
+function generateImageVariant(url: string, width: number, height: number): string {
   const cdnPrefix = "/cdn-cgi/image/";
   const idx = url.indexOf(cdnPrefix);
   if (idx === -1) return url;
@@ -27,12 +26,18 @@ function optimizeImageUrl(url: string): string {
   const paramsEnd = url.indexOf("/", paramsStart);
   if (paramsEnd === -1) return url;
 
-  const params = url.substring(paramsStart, paramsEnd);
-  const optimizedParams = params + ",format=auto,quality=80";
-  return url.substring(0, paramsStart) + optimizedParams + url.substring(paramsEnd);
+  const newParams = `width=${width},height=${height},fit=crop,format=auto,quality=80`;
+  return url.substring(0, paramsStart) + newParams + url.substring(paramsEnd);
 }
 
-const optimizedImageUrl = optimizeImageUrl(product.imageUrl);
+// 三种尺寸对应安全规则白名单
+const src400 = generateImageVariant(product.imageUrl, 400, 400);
+const src600 = generateImageVariant(product.imageUrl, 600, 600);
+const src1080 = generateImageVariant(product.imageUrl, 1080, 1080);
+
+const srcset = `${src400} 400w, ${src600} 600w, ${src1080} 1080w`;
+// sizes 匹配 ProductGrid 的断点: 2列(≤30em) / 4列(≤50em) / 6列(>50em)
+const sizes = "(max-width: 30em) 50vw, (max-width: 50em) 25vw, 16.67vw";
 ---
 
 <a 
@@ -46,10 +51,12 @@ const optimizedImageUrl = optimizeImageUrl(product.imageUrl);
   <article>
     <div class="image-container">
       <img 
-        src={optimizedImageUrl} 
+        src={src600} 
+        srcset={srcset}
+        sizes={sizes}
         alt={product.name} 
-        width="800" 
-        height="800" 
+        width="600" 
+        height="600" 
         loading="lazy"
         decoding="async"
         class="custom-image"
