@@ -1,5 +1,13 @@
 [
   {
+    "id": "340",
+    "name": "Cat_Streetlight",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Cat_Streetlight-320fef1a-766e-8031-8059-eabaf3df8e6f",
+    "stripeLink": "https://buy.stripe.com/3cI5kFbof6iNbSj9UrefD1q"
+  },
+  {
     "id": "339",
     "name": "Kitten",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
