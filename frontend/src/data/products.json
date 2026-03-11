@@ -1,5 +1,13 @@
 [
   {
+    "id": "339",
+    "name": "Kitten",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Kitten-320fef1a-766e-8037-8518-d4879c251ee7",
+    "stripeLink": "https://buy.stripe.com/8x2fZj1NF8qVg8zeaHefD1p"
+  },
+  {
     "id": "338",
     "name": "Sunflower",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
