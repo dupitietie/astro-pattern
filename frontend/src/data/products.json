@@ -1,5 +1,13 @@
 [
   {
+    "id": "337",
+    "name": "Shower_Duck",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Shower_Duck-320fef1a-766e-805d-a0cc-e85c3b0848b3",
+    "stripeLink": "https://buy.stripe.com/cNi28t1NFaz3bSj7MjefD1n"
+  },
+  {
     "id": "336",
     "name": "Bunny",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
