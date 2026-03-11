@@ -1,5 +1,13 @@
 [
   {
+    "id": "322",
+    "name": "Cat_Coffee",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Cat_Coffee-320fef1a-766e-80b3-805c-d3ed5cf65a1c",
+    "stripeLink": "https://buy.stripe.com/dRmbJ3csjaz33lNc2zefD18"
+  },
+  {
     "id": "321",
     "name": "Hen",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
