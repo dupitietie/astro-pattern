@@ -1,5 +1,13 @@
 [
   {
+    "id": "312",
+    "name": "Crocodile",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Crocodile-320fef1a-766e-8011-9527-e2680bf6c55d",
+    "stripeLink": "https://buy.stripe.com/cNibJ3akbePjbSjc2zefD0Y"
+  },
+  {
     "id": "311",
     "name": "Lion",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
