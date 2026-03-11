@@ -1,5 +1,13 @@
 [
   {
+    "id": "314",
+    "name": "Manta_Ray",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Manta_Ray-320fef1a-766e-8009-bdc0-e09610d157f5",
+    "stripeLink": "https://buy.stripe.com/cNi8wR1NFgXr2hJ7MjefD10"
+  },
+  {
     "id": "313",
     "name": "Puppy",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
