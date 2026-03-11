@@ -1,5 +1,13 @@
 [
   {
+    "id": "335",
+    "name": "Pineapple",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Pineapple-320fef1a-766e-804e-98cb-ddfcc8144be9",
+    "stripeLink": "https://buy.stripe.com/6oU7sN2RJbD7bSj3w3efD1l"
+  },
+  {
     "id": "334",
     "name": "Parrot",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
