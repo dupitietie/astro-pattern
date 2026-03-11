@@ -1,5 +1,13 @@
 [
   {
+    "id": "345",
+    "name": "Orchid_Potted_Plants",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Orchid_Potted_Plants-320fef1a-766e-807e-9026-f2c144dcfc44",
+    "stripeLink": "https://buy.stripe.com/00wcN7eArePj5tVc2zefD1v"
+  },
+  {
     "id": "344",
     "name": "Star_Cat",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
