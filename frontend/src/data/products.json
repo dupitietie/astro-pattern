@@ -1,5 +1,13 @@
 [
   {
+    "id": "334",
+    "name": "Parrot",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Parrot-320fef1a-766e-8020-9d65-e3951e31e7cb",
+    "stripeLink": "https://buy.stripe.com/aFa28t2RJ9uZf4veaHefD1k"
+  },
+  {
     "id": "333",
     "name": "Yellow_Dragon",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
