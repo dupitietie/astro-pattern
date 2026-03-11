@@ -1,5 +1,13 @@
 [
   {
+    "id": "344",
+    "name": "Star_Cat",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Star_Cat-320fef1a-766e-8075-92df-fae0af304196",
+    "stripeLink": "https://buy.stripe.com/fZueVfakbaz33lN6IfefD1u"
+  },
+  {
     "id": "343",
     "name": "Potato",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
