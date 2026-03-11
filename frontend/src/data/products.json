@@ -1,5 +1,13 @@
 [
   {
+    "id": "326",
+    "name": "Snails",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Snails-320fef1a-766e-80d2-adec-c315c2257ec5",
+    "stripeLink": "https://buy.stripe.com/6oU7sNakb7mR5tV0jRefD1c"
+  },
+  {
     "id": "325",
     "name": "Wolf",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
