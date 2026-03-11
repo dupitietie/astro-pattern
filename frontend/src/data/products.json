@@ -1,5 +1,13 @@
 [
   {
+    "id": "351",
+    "name": "Eggplant",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Eggplant-320fef1a-766e-80be-98ff-fb28ce33c907",
+    "stripeLink": "https://buy.stripe.com/5kQ8wR2RJdLf8G79UrefD1B"
+  },
+  {
     "id": "350",
     "name": "Mushroom",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
