@@ -12,6 +12,27 @@ type Props = {
 
 const { product } = Astro.props;
 const creatorName = "Tiny Crochet"; 
+
+/**
+ * 对 Cloudflare Image Resizing URL 注入 format=auto 和 quality=80
+ * format=auto: 根据浏览器自动返回 WebP/AVIF，体积减少 25-35%
+ * quality=80: 适度压缩，肉眼无差异，体积再减 10-15%
+ */
+function optimizeImageUrl(url: string): string {
+  const cdnPrefix = "/cdn-cgi/image/";
+  const idx = url.indexOf(cdnPrefix);
+  if (idx === -1) return url;
+
+  const paramsStart = idx + cdnPrefix.length;
+  const paramsEnd = url.indexOf("/", paramsStart);
+  if (paramsEnd === -1) return url;
+
+  const params = url.substring(paramsStart, paramsEnd);
+  const optimizedParams = params + ",format=auto,quality=80";
+  return url.substring(0, paramsStart) + optimizedParams + url.substring(paramsEnd);
+}
+
+const optimizedImageUrl = optimizeImageUrl(product.imageUrl);
 ---
 
 <a 
@@ -25,11 +46,12 @@ const creatorName = "Tiny Crochet";
   <article>
     <div class="image-container">
       <img 
-        src={product.imageUrl} 
+        src={optimizedImageUrl} 
         alt={product.name} 
         width="800" 
         height="800" 
         loading="lazy"
+        decoding="async"
         class="custom-image"
       />
     </div>
