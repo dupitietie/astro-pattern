@@ -1,5 +1,13 @@
 [
   {
+    "id": "343",
+    "name": "Potato",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Potato-320fef1a-766e-8061-9d88-ee0fb793c3f9",
+    "stripeLink": "https://buy.stripe.com/4gM4gB9g77mRe0r6IfefD1t"
+  },
+  {
     "id": "342",
     "name": "Bunny",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
