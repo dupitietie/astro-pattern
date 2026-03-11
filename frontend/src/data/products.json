@@ -1,5 +1,13 @@
 [
   {
+    "id": "324",
+    "name": "Chef_Piggy",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Chef_Piggy-320fef1a-766e-80c7-90d1-d91219cb4836",
+    "stripeLink": "https://buy.stripe.com/dRm8wReAr6iN09B9UrefD1a"
+  },
+  {
     "id": "323",
     "name": "Cheese_Mouse",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
