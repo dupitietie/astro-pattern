@@ -1,5 +1,13 @@
 [
   {
+    "id": "360",
+    "name": "Mini_Bag",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Mini_Bag-321fef1a-766e-8009-935a-ddd7769fe4a9",
+    "stripeLink": "https://buy.stripe.com/28E4gB2RJ8qV4pR8QnefD1K"
+  },
+  {
     "id": "359",
     "name": "Shark",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
