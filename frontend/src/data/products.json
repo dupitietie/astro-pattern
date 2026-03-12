@@ -1,5 +1,13 @@
 [
   {
+    "id": "358",
+    "name": "Pet_Hat",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Pet_Hat-320fef1a-766e-80fd-96d4-ef514bd47039",
+    "stripeLink": "https://buy.stripe.com/3cI8wRfEv4aF8G7eaHefD1I"
+  },
+  {
     "id": "357",
     "name": "Eggplant_Airpods_Case",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
