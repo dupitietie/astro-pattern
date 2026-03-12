@@ -1,5 +1,13 @@
 [
   {
+    "id": "396",
+    "name": "Strawberry_Tart",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Strawberry_Tart-321fef1a-766e-8075-b297-f2c4a9262e47",
+    "stripeLink": "https://buy.stripe.com/00w4gB8c36iN9Kb8QnefD2k"
+  },
+  {
     "id": "395",
     "name": "Strawberry_Milkshake",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
