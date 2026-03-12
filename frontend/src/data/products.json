@@ -1,5 +1,13 @@
 [
   {
+    "id": "377",
+    "name": "Heart",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Heart-321fef1a-766e-80b0-8ffb-c5c441616277",
+    "stripeLink": "https://buy.stripe.com/14AcN79g7bD77C31nVefD21"
+  },
+  {
     "id": "376",
     "name": "Straw_Hat",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
