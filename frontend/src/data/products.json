@@ -1,5 +1,13 @@
 [
   {
+    "id": "387",
+    "name": "Hot_Choco",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Hot_Choco-321fef1a-766e-8031-80b0-c8dabbc19347",
+    "stripeLink": "https://buy.stripe.com/6oUcN72RJ4aF1dFfeLefD2b"
+  },
+  {
     "id": "386",
     "name": "Heart_Pet_Collar",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
