@@ -1,5 +1,13 @@
 [
   {
+    "id": "388",
+    "name": "Peanut_Cat",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Peanut_Cat-321fef1a-766e-8047-8b3b-e768b849f650",
+    "stripeLink": "https://buy.stripe.com/eVq9AV0JB36B4pReaHefD2c"
+  },
+  {
     "id": "387",
     "name": "Hot_Choco",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
