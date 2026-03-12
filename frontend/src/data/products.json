@@ -1,5 +1,13 @@
 [
   {
+    "id": "385",
+    "name": "Bunny_Coaster",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Bunny_Coaster-321fef1a-766e-80bc-a73f-fe6447ea1782",
+    "stripeLink": "https://buy.stripe.com/28EaEZ8c3fTnbSj7MjefD29"
+  },
+  {
     "id": "384",
     "name": "Little_Daisy",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
