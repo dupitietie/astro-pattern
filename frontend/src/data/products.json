@@ -1,5 +1,13 @@
 [
   {
+    "id": "362",
+    "name": "Pear_Duck",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Pear_Duck-321fef1a-766e-8079-9005-f2ca1404e912",
+    "stripeLink": "https://buy.stripe.com/3cI28t9g76iNg8zd6DefD1M"
+  },
+  {
     "id": "361",
     "name": "Dolphin",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
