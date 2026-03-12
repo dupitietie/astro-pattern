@@ -1,5 +1,13 @@
 [
   {
+    "id": "369",
+    "name": "Coconut",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Coconut-321fef1a-766e-804d-ba1f-e4f05d046134",
+    "stripeLink": "https://buy.stripe.com/eVq14pbofaz3bSjeaHefD1T"
+  },
+  {
     "id": "368",
     "name": "Bow_Tie_Kt",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
