@@ -1,5 +1,13 @@
 [
   {
+    "id": "406",
+    "name": "Cheese_Cake",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Cheese_Cake-321fef1a-766e-80d7-8167-fcc4ce2d4b23",
+    "stripeLink": "https://buy.stripe.com/7sYfZj1NF6iN1dF3w3efD2u"
+  },
+  {
     "id": "405",
     "name": "Mouse_Coaster",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
