@@ -1,5 +1,13 @@
 [
   {
+    "id": "402",
+    "name": "Mandrake",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Mandrake-321fef1a-766e-80cc-84c9-e4536176588c",
+    "stripeLink": "https://buy.stripe.com/cNiaEZ63V36B9KbeaHefD2q"
+  },
+  {
     "id": "401",
     "name": "Halloween_Skeleton",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
