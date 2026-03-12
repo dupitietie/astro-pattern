@@ -1,5 +1,13 @@
 [
   {
+    "id": "372",
+    "name": "Gardenia",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Gardenia-321fef1a-766e-8007-a032-e3ff8a4d7dc8",
+    "stripeLink": "https://buy.stripe.com/aFacN763VcHb1dFaYvefD1W"
+  },
+  {
     "id": "371",
     "name": "Star_Giftbox",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
