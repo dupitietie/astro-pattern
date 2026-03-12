@@ -1,5 +1,13 @@
 [
   {
+    "id": "363",
+    "name": "Carrot_Rabbit",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Carrot_Rabbit-321fef1a-766e-80d1-979b-f31d2a0208b1",
+    "stripeLink": "https://buy.stripe.com/9B65kFfEv36B9Kbc2zefD1N"
+  },
+  {
     "id": "362",
     "name": "Pear_Duck",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
