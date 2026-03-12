@@ -1,5 +1,13 @@
 [
   {
+    "id": "356",
+    "name": "Seagull",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Seagull-320fef1a-766e-80e3-bf38-d224252359f8",
+    "stripeLink": "https://buy.stripe.com/9B65kF0JB5eJ09BeaHefD1G"
+  },
+  {
     "id": "355",
     "name": "Mushroom",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
