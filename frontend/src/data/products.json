@@ -1,5 +1,13 @@
 [
   {
+    "id": "384",
+    "name": "Little_Daisy",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Little_Daisy-321fef1a-766e-80aa-8b6a-d3e265c9aeed",
+    "stripeLink": "https://buy.stripe.com/eVq14p8c34aF6xZ5EbefD28"
+  },
+  {
     "id": "383",
     "name": "Pet_Collar",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
