@@ -1,5 +1,13 @@
 [
   {
+    "id": "376",
+    "name": "Straw_Hat",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Straw_Hat-321fef1a-766e-8099-b832-c9cb1b8e0976",
+    "stripeLink": "https://buy.stripe.com/5kQ7sNfEvdLfe0r3w3efD20"
+  },
+  {
     "id": "375",
     "name": "Pilot_Kt",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
