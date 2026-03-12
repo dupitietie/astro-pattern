@@ -1,5 +1,13 @@
 [
   {
+    "id": "403",
+    "name": "Dark_Bunny",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Dark_Bunny-321fef1a-766e-80cc-a504-eaeb69b8a195",
+    "stripeLink": "https://buy.stripe.com/eVqeVfeArfTnaOf1nVefD2r"
+  },
+  {
     "id": "402",
     "name": "Mandrake",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
