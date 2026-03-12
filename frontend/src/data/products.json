@@ -1,5 +1,13 @@
 [
   {
+    "id": "394",
+    "name": "Cupcake",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Cupcake-321fef1a-766e-806b-9dae-ff86f02b9f37",
+    "stripeLink": "https://buy.stripe.com/14AcN73VNcHb09BaYvefD2i"
+  },
+  {
     "id": "393",
     "name": "Marshmallow_Choco",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
