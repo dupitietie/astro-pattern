@@ -1,5 +1,13 @@
 [
   {
+    "id": "397",
+    "name": "Christmas_Cookie",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Christmas_Cookie-321fef1a-766e-8081-8440-c1a65178152b",
+    "stripeLink": "https://buy.stripe.com/6oU28t4ZRdLf09Bc2zefD2l"
+  },
+  {
     "id": "396",
     "name": "Strawberry_Tart",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
