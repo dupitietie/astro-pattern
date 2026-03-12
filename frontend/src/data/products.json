@@ -1,5 +1,13 @@
 [
   {
+    "id": "375",
+    "name": "Pilot_Kt",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Pilot_Kt-321fef1a-766e-80a0-ae14-f8775b752ad3",
+    "stripeLink": "https://buy.stripe.com/6oU5kFdwncHb9Kb0jRefD1Z"
+  },
+  {
     "id": "374",
     "name": "Ranunculus",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
