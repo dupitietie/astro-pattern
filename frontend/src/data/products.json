@@ -1,5 +1,13 @@
 [
   {
+    "id": "398",
+    "name": "Latte",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Latte-321fef1a-766e-80bf-ad5e-fc7c3b0a840c",
+    "stripeLink": "https://buy.stripe.com/dRm6oJ1NF6iN9KbfeLefD2m"
+  },
+  {
     "id": "397",
     "name": "Christmas_Cookie",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
