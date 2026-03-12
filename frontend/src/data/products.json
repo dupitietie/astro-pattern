@@ -1,5 +1,13 @@
 [
   {
+    "id": "390",
+    "name": "Cookie",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Cookie-321fef1a-766e-801d-bcea-d99307fac115",
+    "stripeLink": "https://buy.stripe.com/4gM6oJ1NF9uZcWn1nVefD2e"
+  },
+  {
     "id": "389",
     "name": "Cactus",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
