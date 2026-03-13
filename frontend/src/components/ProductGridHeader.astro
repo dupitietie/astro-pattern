@@ -3,12 +3,16 @@ import Cross from "../assets/images/cross.svg";
 import Search from "../components/Search.astro";
 import Separator from "../components/Separator.astro";
 import TextSlider from "../components/TextSlider.astro";
+import allProducts from "../data/products.json";
 
 type Props = {
 	productsTotal: number;
 };
 
 const { productsTotal } = Astro.props;
+
+// Build a minimal product list for search (only the fields we need)
+const searchData = allProducts.map(p => ({ name: p.name, price: p.price, stripeLink: p.stripeLink }));
 ---
 
 <header class="title-header title-header--initial">
@@ -29,6 +33,7 @@ const { productsTotal } = Astro.props;
 
 <Separator />
 <Search />
+<script type="application/json" id="all-products-data" set:html={JSON.stringify(searchData)}></script>
 
 <style>
   div {

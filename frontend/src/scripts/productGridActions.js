@@ -68,7 +68,8 @@ const initializeVariables = () => {
 	searchInput = document.getElementById("search-input");
 	closeDialog = document.getElementById("close-dialog");
 	searchResultsList = document.getElementById("search-results");
-	allProducts = window.__ALL_PRODUCTS__ || [];
+	const dataEl = document.getElementById("all-products-data");
+	allProducts = dataEl ? JSON.parse(dataEl.textContent || "[]") : [];
 };
 
 /* Shuffle grid items randomly and update the container */
