@@ -63,7 +63,7 @@ import Cross from "../assets/images/cross.svg";
     display: block;
   }
 
-  #search-results {
+  :global(#search-results) {
     list-style: none;
     margin: 1rem 0 0;
     padding: 0;
@@ -71,15 +71,15 @@ import Cross from "../assets/images/cross.svg";
     overflow-y: auto;
   }
 
-  #search-results:empty {
+  :global(#search-results:empty) {
     display: none;
   }
 
-  #search-results li {
+  :global(#search-results li) {
     border-bottom: 1px solid color-mix(in srgb, var(--color-bg) 20%, transparent);
   }
 
-  #search-results li a {
+  :global(#search-results li a) {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,11 +90,11 @@ import Cross from "../assets/images/cross.svg";
     transition: opacity 0.15s;
   }
 
-  #search-results li a:hover {
+  :global(#search-results li a:hover) {
     opacity: 0.6;
   }
 
-  #search-results li a .result-price {
+  :global(#search-results li a .result-price) {
     opacity: 0.5;
     font-size: 0.8rem;
   }
