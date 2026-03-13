@@ -50,17 +50,12 @@ const handleSearchInput = (e) => {
 		searchTerm === "" ? searchContentOriginal : searchTerm;
 	toggleClearButton(searchTerm);
 	searchButton.classList.toggle("search--active", searchTerm !== "");
-
-	// Close the dialog once the user begins typing so that the grid results can be seen.
-	if (searchTerm !== "" && searchDialog && searchDialog.open) {
-		handleCloseClick();
-	}
 };
 
-// Prevent Enter key from submitting the form
+// Prevent Enter key from submitting the form and close dialog instead
 const handleSearchKeydown = (e) => {
 	if (e.key === "Enter") {
-		e.preventDefault();
+		e.preventDefault(); // Prevents page reload from form submission
 		if (searchDialog && searchDialog.open) {
 			handleCloseClick();
 		}

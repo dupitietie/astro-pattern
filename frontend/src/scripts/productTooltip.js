@@ -55,13 +55,8 @@ class Tooltip {
 	initializeEvents() {
 		this.grid.addEventListener("mousemove", this.handleMouseMove);
 		window.addEventListener("resize", this.handleResize);
-
-		for (const product of [...this.products]) {
-			const triggerEl = product.querySelector('.image-container') || product.querySelector('.custom-image') || product;
-			triggerEl._productEl = product; // Save reference to parent product
-			triggerEl.addEventListener("mouseenter", this.handleMouseEnter);
-			triggerEl.addEventListener("mouseleave", this.handleMouseLeave);
-		}
+		this.grid.addEventListener("mouseover", this.handleMouseOver);
+		this.grid.addEventListener("mouseout", this.handleMouseOut);
 	}
 
 	handleMouseMove = (e) => {
@@ -113,10 +108,15 @@ class Tooltip {
 		}, 50);
 	};
 
-	handleMouseEnter = (e) => {
+	handleMouseOver = (e) => {
+		const product = e.target.closest('.product-card');
+		if (!product) return;
+
+		const triggerEl = product.querySelector('.image-container') || product.querySelector('.custom-image') || product;
+		if (!triggerEl.contains(e.target) || triggerEl.contains(e.relatedTarget)) return;
+
 		clearTimeout(this.mouseLeaveTimeout);
-		const triggerEl = e.currentTarget;
-		this.hoverTarget = triggerEl._productEl || triggerEl;
+		this.hoverTarget = product;
 
 		if (this.scaleDownTimeline) this.scaleDownTimeline.kill();
 		clearTimeout(this.scaleDownTimeout);
@@ -133,7 +133,13 @@ class Tooltip {
 		);
 	};
 
-	handleMouseLeave = () => {
+	handleMouseOut = (e) => {
+		const product = e.target.closest('.product-card');
+		if (!product) return;
+
+		const triggerEl = product.querySelector('.image-container') || product.querySelector('.custom-image') || product;
+		if (triggerEl.contains(e.relatedTarget)) return;
+
 		this.hoverTarget = null;
 
 		this.mouseLeaveTimeout = setTimeout(() => {
@@ -159,12 +165,8 @@ class Tooltip {
 
 		this.grid.removeEventListener("mousemove", this.handleMouseMove);
 		window.removeEventListener("resize", this.handleResize);
-
-		for (const product of [...this.products]) {
-			const triggerEl = product.querySelector('.image-container') || product.querySelector('.custom-image') || product;
-			triggerEl.removeEventListener("mouseenter", this.handleMouseEnter);
-			triggerEl.removeEventListener("mouseleave", this.handleMouseLeave);
-		}
+		this.grid.removeEventListener("mouseover", this.handleMouseOver);
+		this.grid.removeEventListener("mouseout", this.handleMouseOut);
 	}
 
 	// Function to update all rows dynamically
