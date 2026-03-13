@@ -1,5 +1,13 @@
 [
   {
+    "id": "418",
+    "name": "Waffle",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Waffle-322fef1a-766e-8082-82ab-d6cb83075338",
+    "stripeLink": "https://buy.stripe.com/3cIdRb63Vaz3aOf2rZefD2G"
+  },
+  {
     "id": "417",
     "name": "Hamburger",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
