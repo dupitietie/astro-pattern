@@ -8,7 +8,7 @@ import Pagination from "../components/Pagination.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 const productsTotal = allProducts.length;
-const pageSize = 35;
+const pageSize = 36;
 const lastPage = Math.ceil(productsTotal / pageSize);
 const pageData = allProducts.slice(0, pageSize);
 

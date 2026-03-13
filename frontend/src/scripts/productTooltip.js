@@ -287,7 +287,7 @@ let tooltip;
 // Page event handler
 const handlePageEvent = (type) => {
 	const page = document.documentElement.getAttribute("data-page");
-	if (page !== "home") return;
+	if (page !== "home" && page !== "page" && isNaN(page)) return;
 
 	if (type === "load") {
 		tooltip = new Tooltip(document.querySelector("[data-grid]"));
