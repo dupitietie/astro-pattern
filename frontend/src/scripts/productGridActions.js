@@ -10,6 +10,8 @@ let searchContentOriginal;
 let searchDialog;
 let searchInput;
 let closeDialog;
+let searchResultsList;
+let allProducts = [];
 
 /* Event handler functions */
 
@@ -34,6 +36,7 @@ const handleCloseClick = () => {
 // Clear search: reset the filter and clear the input.
 const handleSearchClearClick = () => {
 	filterGrid("");
+	renderSearchResults("");
 	toggleClearButton();
 	searchContent.innerHTML = searchContentOriginal;
 	searchInput.value = "";
@@ -44,6 +47,7 @@ const handleSearchClearClick = () => {
 const handleSearchInput = (e) => {
 	const searchTerm = e.target.value;
 	filterGrid(searchTerm);
+	renderSearchResults(searchTerm);
 	searchContent.innerHTML =
 		searchTerm === "" ? searchContentOriginal : searchTerm;
 	toggleClearButton(searchTerm);
@@ -63,6 +67,8 @@ const initializeVariables = () => {
 	searchDialog = document.getElementById("search-dialog");
 	searchInput = document.getElementById("search-input");
 	closeDialog = document.getElementById("close-dialog");
+	searchResultsList = document.getElementById("search-results");
+	allProducts = window.__ALL_PRODUCTS__ || [];
 };
 
 /* Shuffle grid items randomly and update the container */
@@ -92,7 +98,7 @@ const sortGrid = () => {
 	}
 };
 
-/* Filter grid items based on the search input */
+/* Filter grid items based on the search input (current page only) */
 const filterGrid = (searchValue) => {
 	const lowerCaseSearch = searchValue.toLowerCase();
 	for (const item of gridItems) {
@@ -105,6 +111,38 @@ const filterGrid = (searchValue) => {
 				? ""
 				: "none";
 	}
+};
+
+/* Render global search results from all products into the dialog */
+const renderSearchResults = (searchValue) => {
+	if (!searchResultsList) return;
+
+	if (!searchValue || searchValue.trim() === "") {
+		searchResultsList.innerHTML = "";
+		return;
+	}
+
+	const lowerCaseSearch = searchValue.toLowerCase();
+	const matches = allProducts.filter((product) =>
+		product.name.toLowerCase().includes(lowerCaseSearch),
+	);
+
+	if (matches.length === 0) {
+		searchResultsList.innerHTML =
+			'<li style="padding:0.6rem 0.25rem;opacity:0.5;font-size:0.9rem;">No results found</li>';
+		return;
+	}
+
+	// Display name with underscores replaced by spaces for readability
+	const formatName = (name) => name.replace(/_/g, " ");
+
+	searchResultsList.innerHTML = matches
+		.slice(0, 50) // cap at 50 results for performance
+		.map(
+			(product) =>
+				`<li><a href="${product.stripeLink}" target="_blank" rel="noopener noreferrer"><span>${formatName(product.name)}</span><span class="result-price">$${product.price}</span></a></li>`,
+		)
+		.join("");
 };
 
 /* Toggle page blur when the search dialog is open or closed */
@@ -157,6 +195,8 @@ const cleanup = () => {
 	searchDialog = null;
 	searchInput = null;
 	closeDialog = null;
+	searchResultsList = null;
+	allProducts = [];
 };
 
 /* Handle Astro page events on the home page */

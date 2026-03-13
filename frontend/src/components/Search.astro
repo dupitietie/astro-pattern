@@ -17,15 +17,18 @@ import Cross from "../assets/images/cross.svg";
       ><Cross width={9} height={9} /></button
     >
   </form>
+  <ul id="search-results"></ul>
 </dialog>
 
 <style>
   dialog {
-    filter: none; /* Ensure the dialog itself is not blurred */
-    pointer-events: auto; /* Allow interaction with the dialog */
+    filter: none;
+    pointer-events: auto;
     border: 0;
     padding: 3rem;
     width: clamp(300px, 40vw, 500px);
+    max-height: 70vh;
+    overflow-y: auto;
     background: var(--color-text);
     color: var(--color-bg);
   }
@@ -58,5 +61,41 @@ import Cross from "../assets/images/cross.svg";
     color: var(--color-faded);
     margin-top: 0.5rem;
     display: block;
+  }
+
+  #search-results {
+    list-style: none;
+    margin: 1rem 0 0;
+    padding: 0;
+    max-height: 40vh;
+    overflow-y: auto;
+  }
+
+  #search-results:empty {
+    display: none;
+  }
+
+  #search-results li {
+    border-bottom: 1px solid color-mix(in srgb, var(--color-bg) 20%, transparent);
+  }
+
+  #search-results li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem 0.25rem;
+    color: inherit;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: opacity 0.15s;
+  }
+
+  #search-results li a:hover {
+    opacity: 0.6;
+  }
+
+  #search-results li a .result-price {
+    opacity: 0.5;
+    font-size: 0.8rem;
   }
 </style>
