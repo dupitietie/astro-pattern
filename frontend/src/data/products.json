@@ -1,5 +1,13 @@
 [
   {
+    "id": "433",
+    "name": "Minibag_Set",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Minibag_Set-322fef1a-766e-8026-8c53-fb4bfa3ba60f",
+    "stripeLink": "https://buy.stripe.com/5kQ00l63V5eJ7C3eaHefD2V"
+  },
+  {
     "id": "432",
     "name": "Piggy_Cake",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
