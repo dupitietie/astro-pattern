@@ -12,7 +12,7 @@ type Props = {
 const { productsTotal } = Astro.props;
 
 // Build a minimal product list for search (only the fields we need)
-const searchData = allProducts.map(p => ({ name: p.name, price: p.price, stripeLink: p.stripeLink }));
+const searchData = allProducts.map(p => ({ name: p.name, price: p.price, stripeLink: p.stripeLink, imageUrl: p.imageUrl }));
 ---
 
 <header class="title-header title-header--initial">
