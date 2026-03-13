@@ -17,7 +17,6 @@ import Cross from "../assets/images/cross.svg";
       ><Cross width={9} height={9} /></button
     >
   </form>
-  <div id="search-results"></div>
 </dialog>
 
 <style>
@@ -68,83 +67,5 @@ import Cross from "../assets/images/cross.svg";
     color: var(--color-faded);
     margin-top: 0.5rem;
     display: block;
-  }
-
-  :global(#search-results) {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem 1rem;
-    margin: 2rem 0 0;
-    padding: 0;
-    max-height: none; /* Let the dialog handle scrolling */
-    overflow: visible;
-  }
-
-  @media screen and (min-width: 30em) {
-    :global(#search-results) {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-
-  :global(#search-results:empty) {
-    display: none !important;
-  }
-
-  /* Product Card Styles */
-  :global(#search-results .product-card) {
-    display: flex !important;
-    gap: 0.5rem;
-    flex-direction: column;
-    align-content: start;
-    width: 100%;
-    margin: 0 auto; 
-    text-decoration: none;
-    color: inherit;
-    visibility: visible !important;
-    opacity: 1 !important;
-    min-height: 100px;
-  }
-
-  :global(#search-results .image-container) {
-    width: 100%;
-    border-radius: 12px;
-    overflow: hidden;
-    cursor: pointer;
-    background: #f0f0f0;
-    position: relative;
-    aspect-ratio: 1 / 1;
-  }
-
-  :global(#search-results .custom-image) {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    display: block;
-    border-radius: 12px; 
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
-  }
-
-  :global(#search-results .mobile-info) {
-    margin-top: 0.5rem;
-    display: flex !important;
-    justify-content: space-between;
-    align-items: flex-start;
-    font-size: 0.9rem;
-    line-height: 1.2;
-    padding: 0 0.25rem; 
-  }
-
-  :global(#search-results .mobile-title) {
-    font-weight: 600;
-    margin: 0;
-    font-size: 0.9rem;
-  }
-
-  :global(#search-results .mobile-price) {
-    font-weight: normal;
-    opacity: 0.8;
   }
 </style>
