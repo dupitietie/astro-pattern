@@ -1,5 +1,13 @@
 [
   {
+    "id": "429",
+    "name": "Cookie_Star",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Cookie_Star-322fef1a-766e-8068-a7b2-fb102dfc2e29",
+    "stripeLink": "https://buy.stripe.com/4gMcN7eAr6iN6xZaYvefD2R"
+  },
+  {
     "id": "428",
     "name": "Snake",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
