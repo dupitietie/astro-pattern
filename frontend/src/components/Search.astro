@@ -25,18 +25,24 @@ import Cross from "../assets/images/cross.svg";
     filter: none;
     pointer-events: auto;
     border: 0;
-    padding: 3rem;
-    width: clamp(320px, 80vw, 900px); /* wider to fit cards */
-    max-height: 85vh; /* taller to fit more cards */
-    overflow-y: auto;
-    background: var(--color-text);
-    color: var(--color-bg);
+    padding: 2rem;
+    width: clamp(300px, 60vw, 600px);
+    margin-top: 5vh;
+    border-radius: 12px;
+    background: var(--color-bg);
+    color: var(--color-text);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     z-index: 9999;
+  }
+  dialog::backdrop {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
   }
   button {
     position: absolute;
     top: 1rem;
     right: 1rem;
+    cursor: pointer;
   }
   input {
     background: none;
