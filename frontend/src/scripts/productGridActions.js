@@ -10,7 +10,6 @@ let searchContentOriginal;
 let searchDialog;
 let searchInput;
 let closeDialog;
-let searchResultsList;
 let allProducts = [];
 
 /* Event handler functions */
@@ -51,11 +50,10 @@ const handleSearchInput = (e) => {
 		searchTerm === "" ? searchContentOriginal : searchTerm;
 	toggleClearButton(searchTerm);
 	searchButton.classList.toggle("search--active", searchTerm !== "");
-	
-	// If the user starts typing, close the modal so they can see the main grid
+
+	// Close the dialog once the user begins typing so that the grid results can be seen.
 	if (searchTerm !== "" && searchDialog && searchDialog.open) {
 		handleCloseClick();
-		// Re-focus the original search input or ensure we keep focus if needed
 	}
 };
 
@@ -82,7 +80,6 @@ const initializeVariables = () => {
 	searchDialog = document.getElementById("search-dialog");
 	searchInput = document.getElementById("search-input");
 	closeDialog = document.getElementById("close-dialog");
-	searchResultsList = document.getElementById("search-results");
 	const dataEl = document.getElementById("all-products-data");
 	allProducts = dataEl ? JSON.parse(dataEl.textContent || "[]") : [];
 };
@@ -119,9 +116,10 @@ const filterGrid = (searchValue) => {
   // Logic disabled because renderSearchResults now handles the grid directly
 };
 
-	/* Render global search results from all products into the main grid */
+/* Render global search results from all products into the main grid and the search dialog */
 const renderSearchResults = (searchValue) => {
 	if (!gridContainer) return;
+
 
 	if (!searchValue || searchValue.trim() === "") {
 		// When search is cleared, restore the original grid items
@@ -152,44 +150,53 @@ const renderSearchResults = (searchValue) => {
 		formatName(product.name).toLowerCase().includes(lowerCaseSearch),
 	);
 
-	gridContainer.innerHTML = "";
-
-	if (matches.length === 0) {
+	const renderNoResults = () => {
 		gridContainer.innerHTML =
 			'<div style="grid-column: 1 / -1; padding:2rem; text-align:center; opacity:0.6; font-size:1.2rem;">No products found matching your search.</div>';
+	};
+
+	if (matches.length === 0) {
+		renderNoResults();
 		return;
 	}
+
+	const createProductCard = (product) => {
+		const name = formatName(product.name);
+		const src400 = generateImageVariant(product.imageUrl, 400, 400);
+		const src600 = generateImageVariant(product.imageUrl, 600, 600);
+		const src1080 = generateImageVariant(product.imageUrl, 1080, 1080);
+		const srcset = `${src400} 400w, ${src600} 600w, ${src1080} 1080w`;
+		const sizes = "(max-width: 30em) 50vw, (max-width: 50em) 25vw, 16.67vw";
+
+		const wrapper = document.createElement("div");
+		wrapper.innerHTML = `
+			<a class="product-card" data-product-title="${product.name}" data-creator-name="Tiny Crochet" data-price="$${product.price}" href="${product.stripeLink}" target="_blank">
+				<article>
+					<div class="image-container">
+						<img src="${src600}" srcset="${srcset}" sizes="${sizes}" alt="${name}" loading="lazy" decoding="async" class="custom-image" width="600" height="600" />
+					</div>
+					<div class="mobile-info">
+						<h3 class="mobile-title">${name}</h3>
+						<span class="mobile-price">$${product.price}</span>
+					</div>
+					<span class="sr-only">
+						<h3>${name}</h3>
+						<p>Tiny Crochet</p>
+					</span>
+				</article>
+			</a>
+		`;
+
+		return wrapper.firstElementChild;
+	};
+
+	gridContainer.innerHTML = "";
 
 	matches
 		.slice(0, 100) // cap at 100 results for performance
 		.forEach((product) => {
-			const name = formatName(product.name);
-			const src400 = generateImageVariant(product.imageUrl, 400, 400);
-			const src600 = generateImageVariant(product.imageUrl, 600, 600);
-			const src1080 = generateImageVariant(product.imageUrl, 1080, 1080);
-			const srcset = `${src400} 400w, ${src600} 600w, ${src1080} 1080w`;
-			const sizes = "(max-width: 30em) 50vw, (max-width: 50em) 25vw, 16.67vw";
-
-			// Create the element properly so Astro's global CSS or grid CSS applies
-			const wrapper = document.createElement("div");
-			wrapper.innerHTML = `
-				<a class="product-card" data-product-title="${product.name}" data-creator-name="Tiny Crochet" data-price="$${product.price}" href="${product.stripeLink}" target="_blank">
-					<article>
-						<div class="image-container">
-							<img src="${src600}" srcset="${srcset}" sizes="${sizes}" alt="${name}" loading="lazy" decoding="async" class="custom-image" width="600" height="600" />
-						</div>
-						<div class="mobile-info">
-							<h3 class="mobile-title">${name}</h3>
-							<span class="mobile-price">$${product.price}</span>
-						</div>
-            <span class="sr-only">
-              <h3>${name}</h3>
-              <p>Tiny Crochet</p>
-            </span>
-					</article>
-				</a>
-			`;
-			gridContainer.appendChild(wrapper.firstElementChild);
+			// Add results to the main grid.
+			gridContainer.appendChild(createProductCard(product));
 		});
 };
 
@@ -245,7 +252,6 @@ const cleanup = () => {
 	searchDialog = null;
 	searchInput = null;
 	closeDialog = null;
-	searchResultsList = null;
 	allProducts = [];
 };
 
