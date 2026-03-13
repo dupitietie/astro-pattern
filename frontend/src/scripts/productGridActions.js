@@ -114,7 +114,7 @@ const filterGrid = (searchValue) => {
 	}
 };
 
-/* Render global search results from all products into the dialog */
+	/* Render global search results from all products into the dialog */
 const renderSearchResults = (searchValue) => {
 	if (!searchResultsList) return;
 
@@ -124,8 +124,12 @@ const renderSearchResults = (searchValue) => {
 	}
 
 	const lowerCaseSearch = searchValue.toLowerCase();
+	
+	// Display name helper: replace underscores with spaces
+	const formatName = (name) => name.replace(/_/g, " ");
+
 	const matches = allProducts.filter((product) =>
-		product.name.toLowerCase().includes(lowerCaseSearch),
+		formatName(product.name).toLowerCase().includes(lowerCaseSearch),
 	);
 
 	if (matches.length === 0) {
@@ -133,9 +137,6 @@ const renderSearchResults = (searchValue) => {
 			'<li style="padding:0.6rem 0.25rem;opacity:0.5;font-size:0.9rem;">No results found</li>';
 		return;
 	}
-
-	// Display name with underscores replaced by spaces for readability
-	const formatName = (name) => name.replace(/_/g, " ");
 
 	searchResultsList.innerHTML = matches
 		.slice(0, 50) // cap at 50 results for performance
