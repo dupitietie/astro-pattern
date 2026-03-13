@@ -54,6 +54,13 @@ const handleSearchInput = (e) => {
 	searchButton.classList.toggle("search--active", searchTerm !== "");
 };
 
+// Prevent Enter key from submitting the form
+const handleSearchKeydown = (e) => {
+	if (e.key === "Enter") {
+		e.preventDefault();
+	}
+};
+
 /* Initialize DOM elements and states */
 const initializeVariables = () => {
 	gridContainer = document.querySelector("[data-grid]");
@@ -175,6 +182,7 @@ const init = () => {
 	closeDialog?.addEventListener("click", handleCloseClick);
 	searchClearButton?.addEventListener("click", handleSearchClearClick);
 	searchInput?.addEventListener("input", handleSearchInput);
+	searchInput?.addEventListener("keydown", handleSearchKeydown);
 	searchDialog?.addEventListener("close", () => toggleDialogPageBlur(false));
 };
 
@@ -186,6 +194,7 @@ const cleanup = () => {
 	closeDialog?.removeEventListener("click", handleCloseClick);
 	searchClearButton?.removeEventListener("click", handleSearchClearClick);
 	searchInput?.removeEventListener("input", handleSearchInput);
+	searchInput?.removeEventListener("keydown", handleSearchKeydown);
 	gridContainer = null;
 	gridItems = [];
 	shuffleButton = null;
