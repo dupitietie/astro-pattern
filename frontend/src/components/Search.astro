@@ -17,7 +17,7 @@ import Cross from "../assets/images/cross.svg";
       ><Cross width={9} height={9} /></button
     >
   </form>
-  <ul id="search-results"></ul>
+  <div id="search-results"></div>
 </dialog>
 
 <style>
@@ -64,38 +64,73 @@ import Cross from "../assets/images/cross.svg";
   }
 
   :global(#search-results) {
-    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
     margin: 1rem 0 0;
     padding: 0;
-    max-height: 40vh;
+    max-height: 50vh;
     overflow-y: auto;
+  }
+
+  @media screen and (min-width: 30em) {
+    :global(#search-results) {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 
   :global(#search-results:empty) {
     display: none;
   }
 
-  :global(#search-results li) {
-    border-bottom: 1px solid color-mix(in srgb, var(--color-bg) 20%, transparent);
+  /* Product Card Styles from ProductCard.astro */
+  :global(#search-results .product-card) {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    align-content: start;
+    width: 100%;
+    margin: 0 auto; 
+    text-decoration: none;
+    color: inherit;
   }
 
-  :global(#search-results li a) {
+  :global(#search-results .image-container) {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  :global(#search-results .custom-image) {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover;
+    background: var(--color-placeholder, #f0f0f0);
+    display: block;
+    border-radius: 12px; 
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  }
+
+  :global(#search-results .mobile-info) {
+    margin-top: 0.5rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0.6rem 0.25rem;
-    color: inherit;
-    text-decoration: none;
+    align-items: flex-start;
     font-size: 0.9rem;
-    transition: opacity 0.15s;
+    line-height: 1.2;
+    padding: 0 0.25rem; 
   }
 
-  :global(#search-results li a:hover) {
-    opacity: 0.6;
+  :global(#search-results .mobile-title) {
+    font-weight: 600;
+    margin: 0;
+    font-size: 0.9rem;
   }
 
-  :global(#search-results li a .result-price) {
-    opacity: 0.5;
-    font-size: 0.8rem;
+  :global(#search-results .mobile-price) {
+    font-weight: normal;
+    opacity: 0.8;
   }
 </style>

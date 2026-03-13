@@ -135,21 +135,53 @@ const renderSearchResults = (searchValue) => {
 	// Display name helper: replace underscores with spaces
 	const formatName = (name) => name.replace(/_/g, " ");
 
+	// Cloudflare optimized image URL helper
+	const generateImageVariant = (url, width, height) => {
+		const cdnPrefix = "/cdn-cgi/image/";
+		const idx = url.indexOf(cdnPrefix);
+		if (idx === -1) return url;
+		const paramsStart = idx + cdnPrefix.length;
+		const paramsEnd = url.indexOf("/", paramsStart);
+		if (paramsEnd === -1) return url;
+		const newParams = `width=${width},height=${height},fit=crop,format=auto,quality=80`;
+		return url.substring(0, paramsStart) + newParams + url.substring(paramsEnd);
+	};
+
 	const matches = allProducts.filter((product) =>
 		formatName(product.name).toLowerCase().includes(lowerCaseSearch),
 	);
 
 	if (matches.length === 0) {
 		searchResultsList.innerHTML =
-			'<li style="padding:0.6rem 0.25rem;opacity:0.5;font-size:0.9rem;">No results found</li>';
+			'<div style="grid-column: 1 / -1; padding:1rem; opacity:0.5; text-align:center;">No results found</div>';
 		return;
 	}
 
 	searchResultsList.innerHTML = matches
-		.slice(0, 50) // cap at 50 results for performance
+		.slice(0, 50) // cap at 50 results
 		.map(
-			(product) =>
-				`<li><a href="${product.stripeLink}" target="_blank" rel="noopener noreferrer"><span>${formatName(product.name)}</span><span class="result-price">$${product.price}</span></a></li>`,
+			(product) => {
+				const name = formatName(product.name);
+				const src400 = generateImageVariant(product.imageUrl, 400, 400);
+				const src600 = generateImageVariant(product.imageUrl, 600, 600);
+				const src1080 = generateImageVariant(product.imageUrl, 1080, 1080);
+				const srcset = `${src400} 400w, ${src600} 600w, ${src1080} 1080w`;
+				const sizes = "(max-width: 30em) 50vw, (max-width: 50em) 33vw, 25vw";
+
+				return `
+					<a class="product-card" href="${product.stripeLink}" target="_blank">
+						<article>
+							<div class="image-container">
+								<img src="${src400}" srcset="${srcset}" sizes="${sizes}" alt="${name}" loading="lazy" decoding="async" class="custom-image" />
+							</div>
+							<div class="mobile-info">
+								<h3 class="mobile-title">${name}</h3>
+								<span class="mobile-price">$${product.price}</span>
+							</div>
+						</article>
+					</a>
+				`;
+			}
 		)
 		.join("");
 };
