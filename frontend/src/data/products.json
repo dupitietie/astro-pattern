@@ -1,5 +1,13 @@
 [
   {
+    "id": "458",
+    "name": "Bananas",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Bananas-323fef1a-766e-8074-b21a-dd707f2137c1",
+    "stripeLink": "https://buy.stripe.com/5kQ3cxcsjaz38G70jRefD3k"
+  },
+  {
     "id": "457",
     "name": "Kiwi",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
