@@ -1,5 +1,13 @@
 [
   {
+    "id": "450",
+    "name": "Mango",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Mango-323fef1a-766e-802d-b9f9-fe129c34d16c",
+    "stripeLink": "https://buy.stripe.com/3cI28t8c3bD76xZc2zefD3c"
+  },
+  {
     "id": "449",
     "name": "Carrot",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
