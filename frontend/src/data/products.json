@@ -1,5 +1,13 @@
 [
   {
+    "id": "448",
+    "name": "Pitaya",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Pitaya-323fef1a-766e-8026-906c-f99825841805",
+    "stripeLink": "https://buy.stripe.com/3cIbJ39g7az3aOf2rZefD3a"
+  },
+  {
     "id": "447",
     "name": "Raspberry",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
