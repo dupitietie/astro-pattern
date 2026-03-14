@@ -1,5 +1,13 @@
 [
   {
+    "id": "460",
+    "name": "Pineapple",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Pineapple-323fef1a-766e-80b5-b7c0-f05387c5a479",
+    "stripeLink": "https://buy.stripe.com/14A8wR1NFaz37C34A7efD3m"
+  },
+  {
     "id": "459",
     "name": "Watermelon",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
