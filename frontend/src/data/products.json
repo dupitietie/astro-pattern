@@ -1,5 +1,13 @@
 [
   {
+    "id": "453",
+    "name": "Eggplant",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Eggplant-323fef1a-766e-8040-8014-d75844765d36",
+    "stripeLink": "https://buy.stripe.com/00w4gB4ZR0Ytf4v7MjefD3f"
+  },
+  {
     "id": "452",
     "name": "Broccoli",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
