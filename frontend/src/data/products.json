@@ -1,5 +1,13 @@
 [
   {
+    "id": "454",
+    "name": "Pear",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Pear-323fef1a-766e-8044-8800-f81cb96c886f",
+    "stripeLink": "https://buy.stripe.com/14A7sNakb22xf4v5EbefD3g"
+  },
+  {
     "id": "453",
     "name": "Eggplant",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
