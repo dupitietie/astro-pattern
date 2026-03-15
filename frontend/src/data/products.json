@@ -1,5 +1,13 @@
 [
   {
+    "id": "469",
+    "name": "Elephant",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Elephant-324fef1a-766e-80db-a215-e62b4e56245d",
+    "stripeLink": "https://buy.stripe.com/bJe7sNakbgXr7C33w3efD3v"
+  },
+  {
     "id": "468",
     "name": "Triangle_Scarf",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
