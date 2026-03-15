@@ -1,5 +1,13 @@
 [
   {
+    "id": "489",
+    "name": "Frog",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Frog-324fef1a-766e-80cf-83a1-c84e8bf87250",
+    "stripeLink": "https://buy.stripe.com/bJe6oJ9g722xaOf3w3efD3P"
+  },
+  {
     "id": "488",
     "name": "Garlic_Bird",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
