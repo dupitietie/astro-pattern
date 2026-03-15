@@ -1,5 +1,13 @@
 [
   {
+    "id": "472",
+    "name": "Monster_bag",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Monster_bag-324fef1a-766e-8059-a5e0-c82ee358d8da",
+    "stripeLink": "https://buy.stripe.com/9B6aEZbofaz3f4v0jRefD3y"
+  },
+  {
     "id": "471",
     "name": "Bear",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
