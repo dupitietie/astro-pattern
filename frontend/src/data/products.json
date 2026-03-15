@@ -1,5 +1,13 @@
 [
   {
+    "id": "484",
+    "name": "Bunny",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Bunny-324fef1a-766e-8083-bb31-faacbe07261b",
+    "stripeLink": "https://buy.stripe.com/00wbJ3eAr9uZg8z9UrefD3K"
+  },
+  {
     "id": "483",
     "name": "Bear",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
