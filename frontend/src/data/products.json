@@ -1,5 +1,13 @@
 [
   {
+    "id": "477",
+    "name": "Puppy_Bag",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Puppy_Bag-324fef1a-766e-80a4-badd-d000c87d04ef",
+    "stripeLink": "https://buy.stripe.com/4gM7sN1NF0YtaOf6IfefD3D"
+  },
+  {
     "id": "476",
     "name": "Bear_Snowman",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
