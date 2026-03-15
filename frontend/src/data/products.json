@@ -1,5 +1,13 @@
 [
   {
+    "id": "479",
+    "name": "Sloth",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Sloth-324fef1a-766e-806f-b4ec-ddac670a4f3e",
+    "stripeLink": "https://buy.stripe.com/eVq3cx63VbD7f4vc2zefD3F"
+  },
+  {
     "id": "478",
     "name": "Penguin",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
