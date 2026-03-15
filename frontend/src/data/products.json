@@ -1,5 +1,13 @@
 [
   {
+    "id": "487",
+    "name": "Snowman_Hat",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Snowman_Hat-324fef1a-766e-80be-ac64-c80d24871cdf",
+    "stripeLink": "https://buy.stripe.com/14AaEZ4ZR9uZ2hJgiPefD3N"
+  },
+  {
     "id": "486",
     "name": "Puppy_Snowman",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
