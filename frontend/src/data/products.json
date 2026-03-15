@@ -1,5 +1,13 @@
 [
   {
+    "id": "482",
+    "name": "Red_Panda",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Red_Panda-324fef1a-766e-8070-918a-c4935a98874b",
+    "stripeLink": "https://buy.stripe.com/dRm4gBdwnaz38G7c2zefD3I"
+  },
+  {
     "id": "481",
     "name": "Koala",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
