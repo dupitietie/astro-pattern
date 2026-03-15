@@ -1,5 +1,13 @@
 [
   {
+    "id": "464",
+    "name": "Shrimp",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Shrimp-323fef1a-766e-80b2-9f2d-e1f017332c12",
+    "stripeLink": "https://buy.stripe.com/14A6oJ3VNcHbaOf0jRefD3q"
+  },
+  {
     "id": "463",
     "name": "Cherry",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
