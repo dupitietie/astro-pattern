@@ -1,5 +1,13 @@
 [
   {
+    "id": "496",
+    "name": "Red_Velvet_Cake",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Red_Velvet_Cake-325fef1a-766e-8001-93a5-ddc29cd28d27",
+    "stripeLink": "https://buy.stripe.com/5kQeVfdwncHbaOf2rZefD3W"
+  },
+  {
     "id": "495",
     "name": "Hat",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
