@@ -1,5 +1,13 @@
 [
   {
+    "id": "499",
+    "name": "Manta_Ray",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Manta_Ray-325fef1a-766e-805f-8690-c530e2036706",
+    "stripeLink": "https://buy.stripe.com/fZu8wR0JBbD7bSj9UrefD3Z"
+  },
+  {
     "id": "498",
     "name": "Taro_Cake",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
