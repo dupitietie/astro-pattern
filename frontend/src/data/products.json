@@ -1,5 +1,13 @@
 [
   {
+    "id": "527",
+    "name": "Candy_Backpack",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Candy_Backpack-325fef1a-766e-8039-87ed-f935e06d1c23",
+    "stripeLink": "https://buy.stripe.com/fZu8wRakb22x4pRd6DefE0j"
+  },
+  {
     "id": "526",
     "name": "Lace_Bag",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
