@@ -1,5 +1,13 @@
 [
   {
+    "id": "530",
+    "name": "Waffle_Bag",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Waffle_Bag-325fef1a-766e-801d-8063-fb1c97532d0c",
+    "stripeLink": "https://buy.stripe.com/bJefZj63V4aF1dF7MjefE0m"
+  },
+  {
     "id": "529",
     "name": "Bow_Handbag",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
