@@ -1,5 +1,13 @@
 [
   {
+    "id": "494",
+    "name": "Chick_Box",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Chick_Box-324fef1a-766e-80f9-844c-e92e6febd347",
+    "stripeLink": "https://buy.stripe.com/fZufZjfEv22xf4v5EbefD3U"
+  },
+  {
     "id": "493",
     "name": "Cake_Bag",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
