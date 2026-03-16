@@ -1,5 +1,13 @@
 [
   {
+    "id": "526",
+    "name": "Lace_Bag",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Lace_Bag-325fef1a-766e-8006-a05b-f1bb8c36cebb",
+    "stripeLink": "https://buy.stripe.com/dRm5kF3VN5eJ1dF3w3efE0i"
+  },
+  {
     "id": "525",
     "name": "Basket_bag",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
