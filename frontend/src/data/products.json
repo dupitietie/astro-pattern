@@ -1,5 +1,13 @@
 [
   {
+    "id": "502",
+    "name": "Daisy_Charm",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Daisy_Charm-325fef1a-766e-8067-bec0-dd35ec5b6edb",
+    "stripeLink": "https://buy.stripe.com/eVqaEZ63VgXr8G78QnefD42"
+  },
+  {
     "id": "501",
     "name": "Birthday_Cake",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
