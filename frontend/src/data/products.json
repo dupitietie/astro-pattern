@@ -1,5 +1,13 @@
 [
   {
+    "id": "498",
+    "name": "Taro_Cake",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Taro_Cake-325fef1a-766e-803f-b559-db0b51508a68",
+    "stripeLink": "https://buy.stripe.com/bJeaEZ2RJ5eJcWnc2zefD3Y"
+  },
+  {
     "id": "497",
     "name": "Elephant_Bookcover",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
