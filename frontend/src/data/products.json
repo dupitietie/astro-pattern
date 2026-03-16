@@ -1,5 +1,13 @@
 [
   {
+    "id": "522",
+    "name": "Guide_Fish",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Guide_Fish-325fef1a-766e-8093-b203-d474186615d1",
+    "stripeLink": "https://buy.stripe.com/6oU8wR4ZRdLf5tV1nVefE0e"
+  },
+  {
     "id": "521",
     "name": "Nurse_Fish",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
