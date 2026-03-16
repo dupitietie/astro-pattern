@@ -1,5 +1,13 @@
 [
   {
+    "id": "514",
+    "name": "Power",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": null,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Power-325fef1a-766e-80d8-8ec9-f2b9137b7a2a",
+    "stripeLink": "https://buy.stripe.com/eVq14p0JBcHb5tV6IfefE06"
+  },
+  {
     "id": "513",
     "name": "Pear_Flower",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
