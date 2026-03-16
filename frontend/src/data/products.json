@@ -1,5 +1,13 @@
 [
   {
+    "id": "533",
+    "name": "Hobo_Handbag",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Hobo_Handbag-325fef1a-766e-8082-8fd3-c9748b1b0c93",
+    "stripeLink": "https://buy.stripe.com/8x2eVf63VbD79KbfeLefE0p"
+  },
+  {
     "id": "532",
     "name": "Bow_Earmuffs",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
