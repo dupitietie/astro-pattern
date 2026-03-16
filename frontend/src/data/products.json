@@ -1,5 +1,13 @@
 [
   {
+    "id": "500",
+    "name": "Daisy_Plant",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Daisy_Plant-325fef1a-766e-8062-9b76-c4f206f9a4e8",
+    "stripeLink": "https://buy.stripe.com/aFaaEZ1NF5eJf4vc2zefD40"
+  },
+  {
     "id": "499",
     "name": "Manta_Ray",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
