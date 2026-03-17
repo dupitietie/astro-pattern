@@ -1,5 +1,13 @@
 [
   {
+    "id": "543",
+    "name": "Squid",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Squid-326fef1a-766e-8068-ade0-f08cfe8ad9d5",
+    "stripeLink": "https://buy.stripe.com/6oUaEZ9g736Be0r4A7efE0z"
+  },
+  {
     "id": "542",
     "name": "Bucket_Bag",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
