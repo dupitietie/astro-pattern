@@ -1,5 +1,13 @@
 [
   {
+    "id": "569",
+    "name": "Bouquet_Coaster",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Bouquet_Coaster-326fef1a-766e-8046-9cc2-e99e6daf4d90",
+    "stripeLink": "https://buy.stripe.com/28EeVf9g75eJ1dFgiPefE0Z"
+  },
+  {
     "id": "568",
     "name": "Seat_Cushion",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
