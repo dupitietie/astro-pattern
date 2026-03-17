@@ -1,5 +1,13 @@
 [
   {
+    "id": "583",
+    "name": "Plaid_Bag",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Plaid_Bag-326fef1a-766e-80f3-86dc-d3e716b3a054",
+    "stripeLink": "https://buy.stripe.com/cNicN7bof6iNcWneaHefE1d"
+  },
+  {
     "id": "582",
     "name": "Cute_Set",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
