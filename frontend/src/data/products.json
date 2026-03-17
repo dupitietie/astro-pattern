@@ -1,5 +1,13 @@
 [
   {
+    "id": "568",
+    "name": "Seat_Cushion",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Seat_Cushion-326fef1a-766e-8045-86a7-cf2fa671304c",
+    "stripeLink": "https://buy.stripe.com/9B600ldwn7mR6xZ7MjefE0Y"
+  },
+  {
     "id": "567",
     "name": "Lausanne",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
