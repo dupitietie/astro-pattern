@@ -1,5 +1,13 @@
 [
   {
+    "id": "564",
+    "name": "Bouquet_Blanket",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Bouquet_Blanket-326fef1a-766e-80cc-a212-c487ff032c61",
+    "stripeLink": "https://buy.stripe.com/9B6fZjgIz4aF4pR7MjefE0U"
+  },
+  {
     "id": "563",
     "name": "Handbag",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
