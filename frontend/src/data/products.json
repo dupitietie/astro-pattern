@@ -1,5 +1,13 @@
 [
   {
+    "id": "572",
+    "name": "Cat_Paw_Gloves",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Cat_Paw_Gloves-326fef1a-766e-8074-b43c-c5284f5a8592",
+    "stripeLink": "https://buy.stripe.com/4gM28tfEv0Ytg8z9UrefE12"
+  },
+  {
     "id": "571",
     "name": "Cookie",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
