@@ -1,5 +1,13 @@
 [
   {
+    "id": "555",
+    "name": "Scarf_GD",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Scarf_GD-326fef1a-766e-808e-b305-df287252bcb2",
+    "stripeLink": "https://buy.stripe.com/bJecN73VN4aF8G79UrefE0L"
+  },
+  {
     "id": "554",
     "name": "Mint_GD",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
