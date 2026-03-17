@@ -1,5 +1,13 @@
 [
   {
+    "id": "576",
+    "name": "Dumpling_Pillow",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Dumpling_Pillow-326fef1a-766e-80aa-892e-e4ea8c8f5f1e",
+    "stripeLink": "https://buy.stripe.com/bJe5kFgIzgXrbSjfeLefE16"
+  },
+  {
     "id": "575",
     "name": "Tissue_Box",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
