@@ -1,5 +1,13 @@
 [
   {
+    "id": "545",
+    "name": "Vase",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Vase-326fef1a-766e-806f-a536-c17635d75306",
+    "stripeLink": "https://buy.stripe.com/00w9AV63V5eJ6xZ2rZefE0B"
+  },
+  {
     "id": "544",
     "name": "Cat_MIni_Bag",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
