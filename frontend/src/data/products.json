@@ -1,5 +1,13 @@
 [
   {
+    "id": "598",
+    "name": "Strawberry_Cake",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Strawberry_Cake-328fef1a-766e-8069-b9ca-d9050dfe2aab",
+    "stripeLink": "https://buy.stripe.com/5kQ3cx2RJ5eJbSj1nVefE1s"
+  },
+  {
     "id": "597",
     "name": "Bear_Cup",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
