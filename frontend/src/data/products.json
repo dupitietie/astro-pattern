@@ -1,5 +1,13 @@
 [
   {
+    "id": "608",
+    "name": "Cat_Box",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Cat_Box-328fef1a-766e-80e1-87c8-e6cc12dc2fc4",
+    "stripeLink": "https://buy.stripe.com/aFa7sNcsj5eJaOfd6DefE1C"
+  },
+  {
     "id": "607",
     "name": "Pen_Holder",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
