@@ -1,5 +1,13 @@
 [
   {
+    "id": "610",
+    "name": "Lizard",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Lizard-328fef1a-766e-8051-b689-cebd057aae56",
+    "stripeLink": "https://buy.stripe.com/8x2dRb0JB0YtcWnc2zefE1E"
+  },
+  {
     "id": "609",
     "name": "Giraffe_Airpods_Case",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
