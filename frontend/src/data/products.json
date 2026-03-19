@@ -1,5 +1,13 @@
 [
   {
+    "id": "619",
+    "name": "Baby_Hat",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Baby_Hat-328fef1a-766e-80d6-ae25-ff6b59c5df86",
+    "stripeLink": "https://buy.stripe.com/8x2aEZakbbD74pRgiPefE1N"
+  },
+  {
     "id": "618",
     "name": "Baby_Hat",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
