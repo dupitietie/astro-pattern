@@ -1,5 +1,13 @@
 [
   {
+    "id": "613",
+    "name": "Cake_Box",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Cake_Box-328fef1a-766e-8081-a0ae-e76a44aac3ba",
+    "stripeLink": "https://buy.stripe.com/4gM7sN1NF22x1dF8QnefE1H"
+  },
+  {
     "id": "612",
     "name": "Baby_Hat",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
