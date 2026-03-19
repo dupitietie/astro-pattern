@@ -1,5 +1,13 @@
 [
   {
+    "id": "601",
+    "name": "Apple",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Apple-328fef1a-766e-80ab-8bc4-d701edaf5387",
+    "stripeLink": "https://buy.stripe.com/3cIbJ39g74aF1dFfeLefE1v"
+  },
+  {
     "id": "600",
     "name": "Cat_Airpods_Case",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
