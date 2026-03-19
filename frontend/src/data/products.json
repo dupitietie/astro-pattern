@@ -1,5 +1,13 @@
 [
   {
+    "id": "605",
+    "name": "Bunny",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Bunny-328fef1a-766e-80ce-bed2-c4d4cdf54bcc",
+    "stripeLink": "https://buy.stripe.com/aFacN7eArbD74pR0jRefE1z"
+  },
+  {
     "id": "604",
     "name": "Marshmallow_Tart",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
