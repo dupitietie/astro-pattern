@@ -1,5 +1,13 @@
 [
   {
+    "id": "594",
+    "name": "Bear_Bread",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Bear_Bread-328fef1a-766e-80bc-84d5-ccf76a7347f9",
+    "stripeLink": "https://buy.stripe.com/4gM5kFakbfTn3lN6IfefE1o"
+  },
+  {
     "id": "593",
     "name": "Dessert_Set",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
