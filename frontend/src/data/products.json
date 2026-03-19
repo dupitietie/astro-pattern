@@ -1,5 +1,13 @@
 [
   {
+    "id": "617",
+    "name": "Baby_Shoes",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Baby_Shoes-328fef1a-766e-809e-8942-d021fd345961",
+    "stripeLink": "https://buy.stripe.com/cNifZjakbgXr7C35EbefE1L"
+  },
+  {
     "id": "616",
     "name": "Capybara_Airpods_Case",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
