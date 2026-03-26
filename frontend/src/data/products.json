@@ -1,5 +1,13 @@
 [
   {
+    "id": "628",
+    "name": "Squid",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Squid-32ffef1a-766e-8007-9b0f-f7d1d524c4a6",
+    "stripeLink": "https://buy.stripe.com/4gMbJ3csj9uZ2hJ4A7efE1W"
+  },
+  {
     "id": "627",
     "name": "Little_Prince",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
