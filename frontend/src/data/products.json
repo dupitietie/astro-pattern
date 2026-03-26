@@ -1,5 +1,13 @@
 [
   {
+    "id": "626",
+    "name": "Bunny",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Bunny-32ffef1a-766e-8089-9b21-c188cea0ab81",
+    "stripeLink": "https://buy.stripe.com/cNi9AVdwndLff4v5EbefE1U"
+  },
+  {
     "id": "625",
     "name": "Conch_Bag",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
