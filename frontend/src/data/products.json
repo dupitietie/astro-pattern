@@ -1,5 +1,13 @@
 [
   {
+    "id": "640",
+    "name": "Capybara",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Capybara-33bfef1a-766e-80ff-b3d3-d15974d30a5c",
+    "stripeLink": "https://buy.stripe.com/5kQ8wR3VNcHb9Kb3w3efE28"
+  },
+  {
     "id": "639",
     "name": "Octopus",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
