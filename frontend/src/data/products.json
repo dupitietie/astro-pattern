@@ -1,5 +1,13 @@
 [
   {
+    "id": "651",
+    "name": "Puppy",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Puppy-33bfef1a-766e-80d9-802c-e8ec831a5890",
+    "stripeLink": "https://buy.stripe.com/7sYfZjcsjcHb7C36IfefE2b"
+  },
+  {
     "id": "642",
     "name": "Rabbit",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
