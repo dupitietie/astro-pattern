@@ -1,5 +1,13 @@
 [
   {
+    "id": "666",
+    "name": "Elephant",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Elephant-343fef1a-766e-8003-addf-f4573aabc64a",
+    "stripeLink": "https://buy.stripe.com/14AeVffEvaz309B8QnefE2y"
+  },
+  {
     "id": "665",
     "name": "Duck",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
