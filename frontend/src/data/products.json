@@ -1,5 +1,13 @@
 [
   {
+    "id": "665",
+    "name": "Duck",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Duck-341fef1a-766e-80f2-800f-f11d16660177",
+    "stripeLink": "https://buy.stripe.com/14AbJ31NFaz38G7d6DefE2x"
+  },
+  {
     "id": "664",
     "name": "Piggy_Airpods_Case",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
