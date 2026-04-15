@@ -1,5 +1,13 @@
 [
   {
+    "id": "662",
+    "name": "Puppy_Bag",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Puppy_Bag-341fef1a-766e-800c-a06f-d1f27079d1f0",
+    "stripeLink": "https://buy.stripe.com/9B64gBfEv9uZ4pR1nVefE2u"
+  },
+  {
     "id": "661",
     "name": "Cake_Bird",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
