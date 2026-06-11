@@ -1,5 +1,13 @@
 [
   {
+    "id": "676",
+    "name": "Egg_Bag",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Egg_Bag-37cfef1a-766e-8076-af33-cc4cf4675e3f",
+    "stripeLink": "https://buy.stripe.com/7sY7sNbofcHbe0r6IfefE2I"
+  },
+  {
     "id": "675",
     "name": "Lemonade_Airpods_Case",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
