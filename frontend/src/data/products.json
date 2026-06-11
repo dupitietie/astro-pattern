@@ -1,5 +1,13 @@
 [
   {
+    "id": "671",
+    "name": "Cat_Bag",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 2,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Cat_Bag-37cfef1a-766e-80ef-ab9d-c68f653d413c",
+    "stripeLink": "https://buy.stripe.com/00wdRb1NFcHb4pR1nVefE2D"
+  },
+  {
     "id": "670",
     "name": "Villain_Fish",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
