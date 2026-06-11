@@ -1,5 +1,13 @@
 [
   {
+    "id": "672",
+    "name": "Toast",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Toast-37cfef1a-766e-80e7-9e38-d5973be8f467",
+    "stripeLink": "https://buy.stripe.com/7sY9AVakb36Bf4vfeLefE2E"
+  },
+  {
     "id": "671",
     "name": "Cat_Bag",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
