@@ -1,5 +1,13 @@
 [
   {
+    "id": "693",
+    "name": "Pet_Collar",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Pet_Collar-397fef1a-766e-800c-a9cc-eac1fd77fc9c",
+    "stripeLink": "https://buy.stripe.com/fZudRb3VN6iNaOf3w3efE2Z"
+  },
+  {
     "id": "692",
     "name": "Pet_Collar",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
