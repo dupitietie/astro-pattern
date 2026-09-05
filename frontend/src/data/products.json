@@ -1,5 +1,13 @@
 [
   {
+    "id": "709",
+    "name": "Rock_Jasmine",
+    "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
+    "price": 3,
+    "imageUrl": "https://assets.unihandcraft.com/cdn-cgi/image/width=1080,height=1080,fit=crop/Rock_Jasmine-3d1fef1a-766e-80a2-b1a6-eb90a5eaaf26",
+    "stripeLink": "https://buy.stripe.com/6oU00leAr8qV8G71nVefE3f"
+  },
+  {
     "id": "708",
     "name": "Clivia",
     "description": "This is a digital crochet pattern in PDF format. Download link will be sent via email after payment.",
